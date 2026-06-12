@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📐 Math MCQ Practice</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Animated star particles -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- ── TOPBAR ── -->
+<div class="topbar">
+  <div class="brand">📐 Math MCQ Practice</div>
+  <button id="darkToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+</div>
+
+<div class="container">
+
+  <!-- ══════════════════════════════════════════
+       SCREEN 1 — STUDENT INFO
+  ══════════════════════════════════════════ -->
+  <section id="screen-info" class="screen card active">
+
+    <!-- Floating math symbols decoration -->
+    <div class="math-floaters" aria-hidden="true">
+      <span class="floater" style="left:5%; top:60%; --dur:14s; --delay:0s;">∑</span>
+      <span class="floater" style="left:15%; top:40%; --dur:11s; --delay:2s;">π</span>
+      <span class="floater" style="left:80%; top:70%; --dur:13s; --delay:1s;">∫</span>
+      <span class="floater" style="left:90%; top:30%; --dur:10s; --delay:3s;">√</span>
+      <span class="floater" style="left:50%; top:80%; --dur:15s; --delay:0.5s;">∞</span>
+      <span class="floater" style="left:70%; top:20%; --dur:12s; --delay:2.5s;">Δ</span>
+      <span class="floater" style="left:35%; top:65%; --dur:9s; --delay:1.5s;">θ</span>
+    </div>
+
+    <div class="info-hero">
+      <div class="math-symbol-ring">
+        <div class="orbit">
+          <div class="orbit-dot"></div>
+        </div>
+        <div class="core">📐</div>
+      </div>
+      <h1>Math MCQ Practice</h1>
+      <p>Master mathematics through adaptive quizzes</p>
+    </div>
+
+    <form id="infoForm" novalidate>
+      <div class="form-group">
+        <label for="studentName">Your Name</label>
+        <input type="text" id="studentName" placeholder="Enter your full name" required autocomplete="name">
+        <span class="error" id="errName"></span>
+      </div>
+      <div class="form-group">
+        <label for="studentAge">Your Age</label>
+        <input type="number" id="studentAge" placeholder="Enter your age" required min="1" max="120">
+        <span class="error" id="errAge"></span>
+      </div>
+      <div class="btn-row">
+        <button type="submit" class="btn btn-primary">Continue →</button>
+        <button type="button" id="viewHistoryBtn" class="btn btn-secondary">📋 View History</button>
+      </div>
+    </form>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       SCREEN 2 — QUIZ CONFIG
+  ══════════════════════════════════════════ -->
+  <section id="screen-config" class="screen card">
+    <h1>Quiz Setup</h1>
+
+    <form id="configForm">
+      <div class="form-group">
+        <label for="numQuestions">Number of Questions <span style="color:var(--text-muted); font-weight:400;">(10 – 100)</span></label>
+        <input type="number" id="numQuestions" min="10" max="100" value="10" required>
+      </div>
+
+      <div class="section-divider">Mode</div>
+      <div class="form-group">
+        <div class="radio-row">
+          <label class="radio-pill">
+            <input type="radio" name="mode" value="one" checked>
+            One at a Time
+          </label>
+          <label class="radio-pill">
+            <input type="radio" name="mode" value="full">
+            Full List Mode
+          </label>
+        </div>
+      </div>
+
+      <div class="section-divider">Difficulty</div>
+      <div class="form-group">
+        <label for="difficulty">Select Difficulty</label>
+        <select id="difficulty">
+          <option value="Easy">Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Hard">Hard</option>
+          <option value="Mixed" selected>Mixed (All)</option>
+        </select>
+      </div>
+
+      <span class="error" id="errConfig"></span>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-secondary" data-back="screen-info">← Back</button>
+        <button type="submit" class="btn btn-primary">🚀 Start Quiz</button>
+      </div>
+    </form>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       SCREEN 3 — ONE QUESTION MODE
+  ══════════════════════════════════════════ -->
+  <section id="screen-quiz-one" class="screen card">
+    <div class="quiz-header">
+      <div class="quiz-meta">
+        <span id="qCounter">Q 1 / 10</span>
+        <span id="scoreDisplay">Score: 0</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+
+    <!-- Timer -->
+    <div class="timer-wrap">
+      <div class="timer-ring-wrap">
+        <svg viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg">
+          <circle class="timer-bg" cx="29" cy="29" r="23.18"/>
+          <circle class="timer-arc" id="timerArc" cx="29" cy="29" r="23.18"/>
+        </svg>
+        <div class="timer-num" id="timerNum">30</div>
+      </div>
+      <span class="timer-label">seconds remaining</span>
+    </div>
+
+    <!-- Difficulty / topic badges -->
+    <div class="q-meta-row" id="qMetaRow"></div>
+
+    <h2 id="questionText" class="question-text"></h2>
+    <div class="options" id="optionsContainer"></div>
+    <div class="feedback" id="feedback"></div>
+
+    <div class="btn-row">
+      <button id="submitAnswerBtn" class="btn btn-primary">Submit Answer</button>
+      <button id="nextQuestionBtn" class="btn btn-primary hidden">Next Question →</button>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       SCREEN 4 — FULL LIST MODE
+  ══════════════════════════════════════════ -->
+  <section id="screen-quiz-full" class="screen card">
+    <h1>Answer All Questions</h1>
+    <div id="fullListContainer"></div>
+    <div class="btn-row">
+      <button id="submitFullBtn" class="btn btn-primary">Submit Quiz ✓</button>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       SCREEN 5 — RESULT
+  ══════════════════════════════════════════ -->
+  <section id="screen-result" class="screen card">
+
+    <!-- Grade & hero -->
+    <div class="result-hero">
+      <div class="grade-circle grade-a" id="gradeCircle">
+        <div class="grade-letter">A</div>
+      </div>
+      <p class="result-message" id="performanceMsg"></p>
+    </div>
+
+    <!-- Stats grid -->
+    <div class="result-grid" id="resultSummary"></div>
+
+    <!-- Performance bar -->
+    <div class="perf-bar-wrap">
+      <div class="perf-bar-label">
+        <span>Accuracy</span><span id="perfPct"></span>
+      </div>
+      <div class="perf-bar">
+        <div class="perf-bar-fill" id="perfBarFill"></div>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button id="downloadRcBtn" class="btn btn-report">📄 Download Report Card</button>
+      <button id="reviewBtn" class="btn btn-secondary">Show Answer Review</button>
+      <button id="restartBtn" class="btn btn-primary">New Quiz 🔄</button>
+    </div>
+
+    <div id="reviewContainer" class="review-container hidden"></div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       SCREEN 6 — HISTORY
+  ══════════════════════════════════════════ -->
+  <section id="screen-history" class="screen card">
+    <h1>Quiz History</h1>
+    <div id="historyContainer"></div>
+    <div class="btn-row">
+      <button class="btn btn-secondary" data-back="screen-info">← Back</button>
+      <button id="clearHistoryBtn" class="btn btn-secondary">🗑 Clear History</button>
+    </div>
+  </section>
+
+</div><!-- /container -->
+
+<script src="js/storage.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/reportcard.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
