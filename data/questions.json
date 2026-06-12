@@ -1,81 +1,4032 @@
 [
-  {"id":1,"topic":"Algebra","difficulty":"Easy","question":"What is 2 + 2?","options":["1","2","3","4"],"answer":"4"},
-  {"id":2,"topic":"Algebra","difficulty":"Easy","question":"Solve for x: x + 5 = 10","options":["5","10","15","-5"],"answer":"5"},
-  {"id":3,"topic":"Algebra","difficulty":"Easy","question":"What is 3 × 4?","options":["7","12","10","9"],"answer":"12"},
-  {"id":4,"topic":"Algebra","difficulty":"Easy","question":"Simplify: 2x + 3x","options":["5x","6x","x","5x^2"],"answer":"5x"},
-  {"id":5,"topic":"Algebra","difficulty":"Easy","question":"What is the value of x in 2x = 8?","options":["2","4","6","8"],"answer":"4"},
-  {"id":6,"topic":"Algebra","difficulty":"Medium","question":"Factorize: x^2 - 9","options":["(x-3)(x+3)","(x-9)(x+1)","(x+9)(x-1)","(x-3)^2"],"answer":"(x-3)(x+3)"},
-  {"id":7,"topic":"Algebra","difficulty":"Medium","question":"Solve: 3x - 7 = 8","options":["3","5","7","15"],"answer":"5"},
-  {"id":8,"topic":"Algebra","difficulty":"Medium","question":"Expand: (x+2)(x+3)","options":["x^2+5x+6","x^2+6x+5","x^2+5x+5","x^2+6","x^2+6x+6"],"answer":"x^2+5x+6"},
-  {"id":9,"topic":"Algebra","difficulty":"Medium","question":"If 2x + 3y = 12 and x = 3, find y","options":["1","2","3","4"],"answer":"2"},
-  {"id":10,"topic":"Algebra","difficulty":"Medium","question":"Simplify: (x^2 * x^3)","options":["x^5","x^6","x^2","x^3"],"answer":"x^5"},
-  {"id":11,"topic":"Algebra","difficulty":"Hard","question":"Solve the quadratic: x^2 - 5x + 6 = 0 (sum of roots)","options":["5","6","-5","1"],"answer":"5"},
-  {"id":12,"topic":"Algebra","difficulty":"Hard","question":"If f(x) = 2x^2 - 3x + 1, find f(2)","options":["3","5","7","9"],"answer":"3"},
-  {"id":13,"topic":"Algebra","difficulty":"Hard","question":"Solve for x: log2(x) = 5","options":["10","16","25","32"],"answer":"32"},
-  {"id":14,"topic":"Algebra","difficulty":"Hard","question":"Simplify: (a+b)^2 - (a-b)^2","options":["4ab","2ab","a^2+b^2","0"],"answer":"4ab"},
-  {"id":15,"topic":"Algebra","difficulty":"Hard","question":"Find the roots of x^2 - 4 = 0","options":["±2","±4","2,-4","±1"],"answer":"±2"},
-
-  {"id":16,"topic":"Calculus","difficulty":"Easy","question":"Derivative of x^2?","options":["x","2x","x^2","2"],"answer":"2x"},
-  {"id":17,"topic":"Calculus","difficulty":"Easy","question":"Derivative of a constant c?","options":["c","1","0","c-1"],"answer":"0"},
-  {"id":18,"topic":"Calculus","difficulty":"Easy","question":"Integral of 1 dx?","options":["x + C","1","0","x^2"],"answer":"x + C"},
-  {"id":19,"topic":"Calculus","difficulty":"Easy","question":"Derivative of x?","options":["0","1","x","x^2"],"answer":"1"},
-  {"id":20,"topic":"Calculus","difficulty":"Easy","question":"What does 'dx' represent?","options":["A function","A derivative","An infinitesimal change in x","A constant"],"answer":"An infinitesimal change in x"},
-  {"id":21,"topic":"Calculus","difficulty":"Medium","question":"Derivative of sin(x)?","options":["cos(x)","-cos(x)","sin(x)","-sin(x)"],"answer":"cos(x)"},
-  {"id":22,"topic":"Calculus","difficulty":"Medium","question":"Integral of x dx?","options":["x^2 + C","x^2/2 + C","2x + C","x + C"],"answer":"x^2/2 + C"},
-  {"id":23,"topic":"Calculus","difficulty":"Medium","question":"Derivative of e^x?","options":["e^x","xe^(x-1)","1","e"],"answer":"e^x"},
-  {"id":24,"topic":"Calculus","difficulty":"Medium","question":"Derivative of x^3?","options":["3x","3x^2","x^2","3x^3"],"answer":"3x^2"},
-  {"id":25,"topic":"Calculus","difficulty":"Medium","question":"Derivative of cos(x)?","options":["sin(x)","-sin(x)","cos(x)","-cos(x)"],"answer":"-sin(x)"},
-  {"id":26,"topic":"Calculus","difficulty":"Hard","question":"Limit of (sin x)/x as x approaches 0?","options":["0","1","infinity","undefined"],"answer":"1"},
-  {"id":27,"topic":"Calculus","difficulty":"Hard","question":"Second derivative of x^4?","options":["4x^3","12x^2","16x^2","4x^2"],"answer":"12x^2"},
-  {"id":28,"topic":"Calculus","difficulty":"Hard","question":"Integral of e^x dx?","options":["e^x + C","xe^x + C","e^(x+1)+C","e^x/x + C"],"answer":"e^x + C"},
-  {"id":29,"topic":"Calculus","difficulty":"Hard","question":"Derivative of ln(x)?","options":["x","1/x","ln(x)","1"],"answer":"1/x"},
-  {"id":30,"topic":"Calculus","difficulty":"Hard","question":"Find dy/dx if y = x^2 * sin(x) (using product rule, first term)","options":["2x sin(x) + x^2 cos(x)","2x cos(x)","x^2 cos(x)","2x sin(x)"],"answer":"2x sin(x) + x^2 cos(x)"},
-
-  {"id":31,"topic":"Geometry","difficulty":"Easy","question":"Number of sides in a triangle?","options":["2","3","4","5"],"answer":"3"},
-  {"id":32,"topic":"Geometry","difficulty":"Easy","question":"Area of a square with side 4?","options":["8","12","16","20"],"answer":"16"},
-  {"id":33,"topic":"Geometry","difficulty":"Easy","question":"Sum of angles in a triangle?","options":["90","180","270","360"],"answer":"180"},
-  {"id":34,"topic":"Geometry","difficulty":"Easy","question":"Number of sides in a hexagon?","options":["5","6","7","8"],"answer":"6"},
-  {"id":35,"topic":"Geometry","difficulty":"Easy","question":"Perimeter of a square with side 5?","options":["10","15","20","25"],"answer":"20"},
-  {"id":36,"topic":"Geometry","difficulty":"Medium","question":"Area of a circle with radius r?","options":["2πr","πr^2","πr","2πr^2"],"answer":"πr^2"},
-  {"id":37,"topic":"Geometry","difficulty":"Medium","question":"Sum of interior angles of a quadrilateral?","options":["180","270","360","450"],"answer":"360"},
-  {"id":38,"topic":"Geometry","difficulty":"Medium","question":"Volume of a cube with side 3?","options":["9","18","27","81"],"answer":"27"},
-  {"id":39,"topic":"Geometry","difficulty":"Medium","question":"Circumference of circle with radius r?","options":["πr^2","2πr","πr","πd^2"],"answer":"2πr"},
-  {"id":40,"topic":"Geometry","difficulty":"Medium","question":"Area of triangle with base 6 and height 4?","options":["10","12","24","20"],"answer":"12"},
-  {"id":41,"topic":"Geometry","difficulty":"Hard","question":"Pythagoras: if a=3, b=4, find c?","options":["5","6","7","12"],"answer":"5"},
-  {"id":42,"topic":"Geometry","difficulty":"Hard","question":"Volume of a sphere formula?","options":["(4/3)πr^3","4πr^2","πr^2h","(1/3)πr^2h"],"answer":"(4/3)πr^3"},
-  {"id":43,"topic":"Geometry","difficulty":"Hard","question":"Sum of interior angles of a regular pentagon?","options":["360","450","540","720"],"answer":"540"},
-  {"id":44,"topic":"Geometry","difficulty":"Hard","question":"Surface area of a cube with side a?","options":["a^3","4a^2","6a^2","a^2"],"answer":"6a^2"},
-  {"id":45,"topic":"Geometry","difficulty":"Hard","question":"In a right triangle, if hypotenuse=10 and one leg=6, find the other leg?","options":["6","7","8","9"],"answer":"8"},
-
-  {"id":46,"topic":"Trigonometry","difficulty":"Easy","question":"What is sin(0)?","options":["0","1","-1","undefined"],"answer":"0"},
-  {"id":47,"topic":"Trigonometry","difficulty":"Easy","question":"What is cos(0)?","options":["0","1","-1","undefined"],"answer":"1"},
-  {"id":48,"topic":"Trigonometry","difficulty":"Easy","question":"What is tan(0)?","options":["0","1","undefined","-1"],"answer":"0"},
-  {"id":49,"topic":"Trigonometry","difficulty":"Easy","question":"sin^2(x) + cos^2(x) = ?","options":["0","1","2","tan(x)"],"answer":"1"},
-  {"id":50,"topic":"Trigonometry","difficulty":"Easy","question":"What is sin(90°)?","options":["0","1","-1","0.5"],"answer":"1"},
-  {"id":51,"topic":"Trigonometry","difficulty":"Medium","question":"What is cos(90°)?","options":["0","1","-1","0.5"],"answer":"0"},
-  {"id":52,"topic":"Trigonometry","difficulty":"Medium","question":"What is tan(45°)?","options":["0","1","undefined","√2"],"answer":"1"},
-  {"id":53,"topic":"Trigonometry","difficulty":"Medium","question":"What is sin(30°)?","options":["0.5","1","√3/2","0"],"answer":"0.5"},
-  {"id":54,"topic":"Trigonometry","difficulty":"Medium","question":"What is cos(60°)?","options":["0.5","1","√3/2","0"],"answer":"0.5"},
-  {"id":55,"topic":"Trigonometry","difficulty":"Medium","question":"1 + tan^2(x) = ?","options":["sec^2(x)","csc^2(x)","cot^2(x)","1"],"answer":"sec^2(x)"},
-  {"id":56,"topic":"Trigonometry","difficulty":"Hard","question":"What is sin(180° - x) equal to?","options":["sin(x)","-sin(x)","cos(x)","-cos(x)"],"answer":"sin(x)"},
-  {"id":57,"topic":"Trigonometry","difficulty":"Hard","question":"What is the period of sin(x)?","options":["π","2π","π/2","4π"],"answer":"2π"},
-  {"id":58,"topic":"Trigonometry","difficulty":"Hard","question":"cos(2x) in terms of sin(x)?","options":["1-2sin^2(x)","2sin^2(x)-1","sin^2(x)-1","1-sin^2(x)"],"answer":"1-2sin^2(x)"},
-  {"id":59,"topic":"Trigonometry","difficulty":"Hard","question":"What is sin(A+B) equal to?","options":["sinA cosB + cosA sinB","sinA cosB - cosA sinB","cosA cosB - sinA sinB","cosA cosB + sinA sinB"],"answer":"sinA cosB + cosA sinB"},
-  {"id":60,"topic":"Trigonometry","difficulty":"Hard","question":"What is the value of tan(60°)?","options":["1","√3","1/√3","√2"],"answer":"√3"},
-
-  {"id":61,"topic":"Statistics","difficulty":"Easy","question":"What is the mean of 2, 4, 6?","options":["3","4","5","6"],"answer":"4"},
-  {"id":62,"topic":"Statistics","difficulty":"Easy","question":"What is the mode of 1,2,2,3,4?","options":["1","2","3","4"],"answer":"2"},
-  {"id":63,"topic":"Statistics","difficulty":"Easy","question":"What is the range of 5, 10, 15, 20?","options":["10","15","20","25"],"answer":"15"},
-  {"id":64,"topic":"Statistics","difficulty":"Easy","question":"Median of 1, 3, 5?","options":["1","3","5","9"],"answer":"3"},
-  {"id":65,"topic":"Statistics","difficulty":"Easy","question":"Sum of 1,2,3,4,5?","options":["10","15","20","25"],"answer":"15"},
-  {"id":66,"topic":"Statistics","difficulty":"Medium","question":"What is the median of 2, 4, 6, 8?","options":["4","5","6","7"],"answer":"5"},
-  {"id":67,"topic":"Statistics","difficulty":"Medium","question":"Variance measures?","options":["Central tendency","Spread of data","Probability","Frequency"],"answer":"Spread of data"},
-  {"id":68,"topic":"Statistics","difficulty":"Medium","question":"Probability of getting heads in a fair coin toss?","options":["0","0.25","0.5","1"],"answer":"0.5"},
-  {"id":69,"topic":"Statistics","difficulty":"Medium","question":"What is the mean of 10, 20, 30, 40?","options":["20","25","30","35"],"answer":"25"},
-  {"id":70,"topic":"Statistics","difficulty":"Medium","question":"Standard deviation is the square root of?","options":["Mean","Median","Variance","Range"],"answer":"Variance"},
-  {"id":71,"topic":"Statistics","difficulty":"Hard","question":"Probability of rolling a 4 on a fair 6-sided die?","options":["1/6","1/3","1/2","1/4"],"answer":"1/6"},
-  {"id":72,"topic":"Statistics","difficulty":"Hard","question":"In a normal distribution, mean = median = ?","options":["Range","Mode","Variance","SD"],"answer":"Mode"},
-  {"id":73,"topic":"Statistics","difficulty":"Hard","question":"What is the variance of a dataset with all identical values?","options":["1","0","Undefined","Equal to the value"],"answer":"0"},
-  {"id":74,"topic":"Statistics","difficulty":"Hard","question":"If P(A)=0.3, what is P(not A)?","options":["0.3","0.5","0.7","1"],"answer":"0.7"},
-  {"id":75,"topic":"Statistics","difficulty":"Hard","question":"Two dice are rolled, probability sum equals 7?","options":["1/6","1/12","1/36","6/36"],"answer":"1/6"}
+  {
+    "id": 1,
+    "topic": "Average",
+    "difficulty": "Medium",
+    "question": "The average of 5 numbers is 27. If one number is 37, what is the average of the remaining 4?",
+    "options": [
+      "24.5",
+      "25",
+      "25.5",
+      "26"
+    ],
+    "answer": "24.5"
+  },
+  {
+    "id": 2,
+    "topic": "Areas",
+    "difficulty": "Hard",
+    "question": "Area of a rectangle with length 12 cm and breadth 8 cm:",
+    "options": [
+      "80 cm\u00b2",
+      "96 cm\u00b2",
+      "100 cm\u00b2",
+      "112 cm\u00b2"
+    ],
+    "answer": "96 cm\u00b2"
+  },
+  {
+    "id": 3,
+    "topic": "Compound Interest",
+    "difficulty": "Hard",
+    "question": "CI on Rs 1000 for 2 years at 10% per annum:",
+    "options": [
+      "Rs 200",
+      "Rs 205",
+      "Rs 210",
+      "Rs 215"
+    ],
+    "answer": "Rs 210"
+  },
+  {
+    "id": 4,
+    "topic": "Races and Games",
+    "difficulty": "Hard",
+    "question": "In a 100 m race, A beats B by 10 m and C by 13 m. B beats C by:",
+    "options": [
+      "3 m",
+      "3.33 m",
+      "4 m",
+      "5 m"
+    ],
+    "answer": "3.33 m"
+  },
+  {
+    "id": 5,
+    "topic": "Partnership",
+    "difficulty": "Easy",
+    "question": "A invests Rs 20,000 and B Rs 30,000. Profit Rs 10,000. A's share:",
+    "options": [
+      "Rs 3000",
+      "Rs 4000",
+      "Rs 5000",
+      "Rs 6000"
+    ],
+    "answer": "Rs 4000"
+  },
+  {
+    "id": 6,
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "question": "Perimeter of a rectangle with length 15 cm and breadth 9 cm:",
+    "options": [
+      "40 cm",
+      "44 cm",
+      "48 cm",
+      "52 cm"
+    ],
+    "answer": "48 cm"
+  },
+  {
+    "id": 7,
+    "topic": "Arithmetic",
+    "difficulty": "Hard",
+    "question": "What is 456 + 789?",
+    "options": [
+      "1235",
+      "1245",
+      "1230",
+      "1255"
+    ],
+    "answer": "1245"
+  },
+  {
+    "id": 8,
+    "topic": "Time and Work",
+    "difficulty": "Medium",
+    "question": "A completes work in 10 days, B in 15 days. Together:",
+    "options": [
+      "5 days",
+      "6 days",
+      "7 days",
+      "8 days"
+    ],
+    "answer": "6 days"
+  },
+  {
+    "id": 9,
+    "topic": "Simple Equations",
+    "difficulty": "Medium",
+    "question": "Solve: 3x + 7 = 22",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 10,
+    "topic": "Probability",
+    "difficulty": "Easy",
+    "question": "A coin is tossed. Probability of getting head:",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/2"
+  },
+  {
+    "id": 11,
+    "topic": "Problems on Numbers",
+    "difficulty": "Medium",
+    "question": "The sum of two numbers is 25 and their difference is 7. The numbers are:",
+    "options": [
+      "8 and 17",
+      "9 and 16",
+      "10 and 15",
+      "11 and 14"
+    ],
+    "answer": "9 and 16"
+  },
+  {
+    "id": 12,
+    "topic": "Volumes",
+    "difficulty": "Medium",
+    "question": "Volume of a cuboid 5 cm \u00d7 4 cm \u00d7 3 cm:",
+    "options": [
+      "50 cm\u00b3",
+      "55 cm\u00b3",
+      "60 cm\u00b3",
+      "65 cm\u00b3"
+    ],
+    "answer": "60 cm\u00b3"
+  },
+  {
+    "id": 13,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Easy",
+    "question": "HCF of 36 and 48:",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "18"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 14,
+    "topic": "Height and Distance",
+    "difficulty": "Hard",
+    "question": "A tower 30 m high casts a shadow 30 m long. Angle of elevation of sun:",
+    "options": [
+      "30\u00b0",
+      "45\u00b0",
+      "60\u00b0",
+      "90\u00b0"
+    ],
+    "answer": "45\u00b0"
+  },
+  {
+    "id": 15,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "question": "A:B = 2:3, B:C = 4:5. A:C = ?",
+    "options": [
+      "6:15",
+      "8:15",
+      "8:20",
+      "10:15"
+    ],
+    "answer": "8:15"
+  },
+  {
+    "id": 16,
+    "topic": "Boats and Streams",
+    "difficulty": "Hard",
+    "question": "A boat travels 20 km upstream in 4 hours and 18 km downstream in 3 hours. Speed of boat in still water?",
+    "options": [
+      "5.5 km/h",
+      "6 km/h",
+      "6.5 km/h",
+      "7 km/h"
+    ],
+    "answer": "5.5 km/h"
+  },
+  {
+    "id": 17,
+    "topic": "Stocks and Shares",
+    "difficulty": "Hard",
+    "question": "A person buys Rs 1000 stock at 10% premium. Investment:",
+    "options": [
+      "Rs 900",
+      "Rs 1000",
+      "Rs 1100",
+      "Rs 1200"
+    ],
+    "answer": "Rs 1100"
+  },
+  {
+    "id": 18,
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "question": "CP = Rs 200, SP = Rs 250. Profit%:",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "answer": "25%"
+  },
+  {
+    "id": 19,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Medium",
+    "question": "Milk at Rs 16/L mixed with water (free) to get mixture at Rs 12/L. Ratio milk:water:",
+    "options": [
+      "1:3",
+      "2:1",
+      "3:1",
+      "4:1"
+    ],
+    "answer": "3:1"
+  },
+  {
+    "id": 20,
+    "topic": "Discount",
+    "difficulty": "Medium",
+    "question": "A shirt marked Rs 500 is sold at 20% discount. Selling price:",
+    "options": [
+      "Rs 380",
+      "Rs 390",
+      "Rs 400",
+      "Rs 410"
+    ],
+    "answer": "Rs 400"
+  },
+  {
+    "id": 21,
+    "topic": "Time and Distance",
+    "difficulty": "Hard",
+    "question": "A car travels 150 km in 3 hours. Speed:",
+    "options": [
+      "40 km/h",
+      "45 km/h",
+      "50 km/h",
+      "60 km/h"
+    ],
+    "answer": "50 km/h"
+  },
+  {
+    "id": 22,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Easy",
+    "question": "In how many ways can 5 people be arranged in a row?",
+    "options": [
+      "60",
+      "100",
+      "120",
+      "150"
+    ],
+    "answer": "120"
+  },
+  {
+    "id": 23,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Medium",
+    "question": "Total surface area of cube with side 4 cm:",
+    "options": [
+      "80 cm\u00b2",
+      "88 cm\u00b2",
+      "96 cm\u00b2",
+      "104 cm\u00b2"
+    ],
+    "answer": "96 cm\u00b2"
+  },
+  {
+    "id": 24,
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "question": "What is 35% of 400?",
+    "options": [
+      "120",
+      "130",
+      "140",
+      "150"
+    ],
+    "answer": "140"
+  },
+  {
+    "id": 25,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Hard",
+    "question": "Simplify: 25 \u00d7 4 \u00f7 5 + 6 \u00d7 3 - 2",
+    "options": [
+      "34",
+      "35",
+      "36",
+      "38"
+    ],
+    "answer": "36"
+  },
+  {
+    "id": 26,
+    "topic": "Simple Interest",
+    "difficulty": "Easy",
+    "question": "SI on Rs 2000 at 5% for 3 years:",
+    "options": [
+      "Rs 200",
+      "Rs 250",
+      "Rs 300",
+      "Rs 350"
+    ],
+    "answer": "Rs 300"
+  },
+  {
+    "id": 27,
+    "topic": "Basic Maths",
+    "difficulty": "Easy",
+    "question": "What is the value of 0! (zero factorial)?",
+    "options": [
+      "0",
+      "1",
+      "Undefined",
+      "Infinity"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 28,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Medium",
+    "question": "Find the odd one out: 2, 3, 5, 7, 11, 14",
+    "options": [
+      "5",
+      "7",
+      "11",
+      "14"
+    ],
+    "answer": "14"
+  },
+  {
+    "id": 29,
+    "topic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Roots of x\u00b2 - 5x + 6 = 0:",
+    "options": [
+      "2, 3",
+      "1, 6",
+      "2, 4",
+      "3, 4"
+    ],
+    "answer": "2, 3"
+  },
+  {
+    "id": 30,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Easy",
+    "question": "Pipe A fills tank in 6 hours, B in 12 hours. Together, time to fill:",
+    "options": [
+      "3 hours",
+      "4 hours",
+      "5 hours",
+      "6 hours"
+    ],
+    "answer": "4 hours"
+  },
+  {
+    "id": 31,
+    "topic": "Men Food",
+    "difficulty": "Easy",
+    "question": "If 10 men eat 10 kg in 10 days, how much do 5 men eat in 5 days?",
+    "options": [
+      "2.5 kg",
+      "5 kg",
+      "10 kg",
+      "25 kg"
+    ],
+    "answer": "2.5 kg"
+  },
+  {
+    "id": 32,
+    "topic": "Average",
+    "difficulty": "Medium",
+    "question": "Average of first 5 multiples of 3 is:",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 33,
+    "topic": "Areas",
+    "difficulty": "Medium",
+    "question": "Area of a circle with radius 7 cm (\u03c0 = 22/7):",
+    "options": [
+      "144 cm\u00b2",
+      "154 cm\u00b2",
+      "164 cm\u00b2",
+      "174 cm\u00b2"
+    ],
+    "answer": "154 cm\u00b2"
+  },
+  {
+    "id": 34,
+    "topic": "Compound Interest",
+    "difficulty": "Medium",
+    "question": "A sum doubles itself at CI in 10 years. In how many years will it become 4 times?",
+    "options": [
+      "15 years",
+      "20 years",
+      "25 years",
+      "30 years"
+    ],
+    "answer": "20 years"
+  },
+  {
+    "id": 35,
+    "topic": "Races and Games",
+    "difficulty": "Easy",
+    "question": "A can run 1 km in 4 min, B in 5 min. In 1 km race, A beats B by:",
+    "options": [
+      "200 m",
+      "220 m",
+      "240 m",
+      "250 m"
+    ],
+    "answer": "200 m"
+  },
+  {
+    "id": 36,
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "question": "A, B, C invest in ratio 2:3:5. Total profit Rs 10,000. C's share:",
+    "options": [
+      "Rs 3000",
+      "Rs 4000",
+      "Rs 5000",
+      "Rs 6000"
+    ],
+    "answer": "Rs 5000"
+  },
+  {
+    "id": 37,
+    "topic": "Mensuration",
+    "difficulty": "Hard",
+    "question": "Area of a rhombus with diagonals 12 cm and 10 cm:",
+    "options": [
+      "55 cm\u00b2",
+      "60 cm\u00b2",
+      "65 cm\u00b2",
+      "70 cm\u00b2"
+    ],
+    "answer": "60 cm\u00b2"
+  },
+  {
+    "id": 38,
+    "topic": "Arithmetic",
+    "difficulty": "Medium",
+    "question": "What is 1000 - 375?",
+    "options": [
+      "615",
+      "625",
+      "635",
+      "645"
+    ],
+    "answer": "625"
+  },
+  {
+    "id": 39,
+    "topic": "Time and Work",
+    "difficulty": "Easy",
+    "question": "A does half of work in 10 days. B does rest in 5 days. Total time if working together:",
+    "options": [
+      "7.5 days",
+      "8 days",
+      "8.5 days",
+      "9 days"
+    ],
+    "answer": "7.5 days"
+  },
+  {
+    "id": 40,
+    "topic": "Simple Equations",
+    "difficulty": "Hard",
+    "question": "Solve: 5x - 3 = 2x + 9",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 41,
+    "topic": "Probability",
+    "difficulty": "Hard",
+    "question": "A die is thrown. Probability of getting a number > 4:",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/3"
+  },
+  {
+    "id": 42,
+    "topic": "Problems on Numbers",
+    "difficulty": "Hard",
+    "question": "A number when divided by 4 gives 3 as remainder. Same number \u00f7 2 gives remainder:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 43,
+    "topic": "Volumes",
+    "difficulty": "Easy",
+    "question": "Volume of a cone with r = 3.5 cm, h = 12 cm (\u03c0 = 22/7):",
+    "options": [
+      "154 cm\u00b3",
+      "156 cm\u00b3",
+      "158 cm\u00b3",
+      "160 cm\u00b3"
+    ],
+    "answer": "154 cm\u00b3"
+  },
+  {
+    "id": 44,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Hard",
+    "question": "LCM of 8, 12, and 16:",
+    "options": [
+      "24",
+      "36",
+      "48",
+      "64"
+    ],
+    "answer": "48"
+  },
+  {
+    "id": 45,
+    "topic": "Height and Distance",
+    "difficulty": "Easy",
+    "question": "From a point 20 m away, angle of elevation of top of tower is 30\u00b0. Height of tower:",
+    "options": [
+      "10/\u221a3 m",
+      "20/\u221a3 m",
+      "20\u221a3 m",
+      "10\u221a3 m"
+    ],
+    "answer": "20/\u221a3 m"
+  },
+  {
+    "id": 46,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Hard",
+    "question": "Divide Rs 560 in ratio 3:4. Larger share:",
+    "options": [
+      "Rs 280",
+      "Rs 300",
+      "Rs 320",
+      "Rs 340"
+    ],
+    "answer": "Rs 320"
+  },
+  {
+    "id": 47,
+    "topic": "Boats and Streams",
+    "difficulty": "Hard",
+    "question": "Speed of boat = 10 km/h, stream = 2 km/h. Upstream speed is:",
+    "options": [
+      "6 km/h",
+      "7 km/h",
+      "8 km/h",
+      "12 km/h"
+    ],
+    "answer": "8 km/h"
+  },
+  {
+    "id": 48,
+    "topic": "Stocks and Shares",
+    "difficulty": "Hard",
+    "question": "Annual income from 5% stock of Rs 10,000 at par:",
+    "options": [
+      "Rs 400",
+      "Rs 500",
+      "Rs 600",
+      "Rs 700"
+    ],
+    "answer": "Rs 500"
+  },
+  {
+    "id": 49,
+    "topic": "Profit and Loss",
+    "difficulty": "Hard",
+    "question": "A TV bought for Rs 8000 sold at 15% loss. SP:",
+    "options": [
+      "Rs 6400",
+      "Rs 6600",
+      "Rs 6800",
+      "Rs 7000"
+    ],
+    "answer": "Rs 6800"
+  },
+  {
+    "id": 50,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Medium",
+    "question": "A jar has 60L milk. 6L removed and replaced with water, done 3 times. Milk remaining:",
+    "options": [
+      "43.74 L",
+      "44.74 L",
+      "45.74 L",
+      "46.74 L"
+    ],
+    "answer": "43.74 L"
+  },
+  {
+    "id": 51,
+    "topic": "Discount",
+    "difficulty": "Medium",
+    "question": "If successive discounts are 20% and 10%, equivalent single discount:",
+    "options": [
+      "28%",
+      "30%",
+      "32%",
+      "35%"
+    ],
+    "answer": "28%"
+  },
+  {
+    "id": 52,
+    "topic": "Time and Distance",
+    "difficulty": "Easy",
+    "question": "At 60 km/h, time to travel 240 km:",
+    "options": [
+      "3 h",
+      "3.5 h",
+      "4 h",
+      "5 h"
+    ],
+    "answer": "4 h"
+  },
+  {
+    "id": 53,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Medium",
+    "question": "Value of \u2076C\u2082:",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "answer": "15"
+  },
+  {
+    "id": 54,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Hard",
+    "question": "Curved surface area of cylinder with r = 7 cm, h = 8 cm (\u03c0 = 22/7):",
+    "options": [
+      "342 cm\u00b2",
+      "352 cm\u00b2",
+      "362 cm\u00b2",
+      "372 cm\u00b2"
+    ],
+    "answer": "352 cm\u00b2"
+  },
+  {
+    "id": 55,
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "question": "If salary increases from Rs 5000 to Rs 6000, increase%:",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "25%"
+    ],
+    "answer": "20%"
+  },
+  {
+    "id": 56,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Hard",
+    "question": "\u221a(0.0081) = ?",
+    "options": [
+      "0.09",
+      "0.009",
+      "0.9",
+      "9"
+    ],
+    "answer": "0.09"
+  },
+  {
+    "id": 57,
+    "topic": "Simple Interest",
+    "difficulty": "Easy",
+    "question": "At what rate will Rs 500 give SI of Rs 100 in 4 years?",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "7%"
+    ],
+    "answer": "5%"
+  },
+  {
+    "id": 58,
+    "topic": "Basic Maths",
+    "difficulty": "Medium",
+    "question": "Which of the following is a prime number?",
+    "options": [
+      "9",
+      "15",
+      "17",
+      "21"
+    ],
+    "answer": "17"
+  },
+  {
+    "id": 59,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Easy",
+    "question": "Find the odd one out: 3, 5, 7, 12, 17, 19",
+    "options": [
+      "3",
+      "7",
+      "12",
+      "17"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 60,
+    "topic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "For roots to be equal in x\u00b2 + kx + 9 = 0, value of k:",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "\u00b16"
+    ],
+    "answer": "\u00b16"
+  },
+  {
+    "id": 61,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Hard",
+    "question": "Pipe A fills tank in 4 hours, waste pipe B empties in 6 hours. Net fill time when both open:",
+    "options": [
+      "8 hours",
+      "10 hours",
+      "12 hours",
+      "14 hours"
+    ],
+    "answer": "12 hours"
+  },
+  {
+    "id": 62,
+    "topic": "Men Food",
+    "difficulty": "Easy",
+    "question": "A camp has food for 200 soldiers for 30 days. After 10 days, 50 soldiers leave. Food lasts for more:",
+    "options": [
+      "24 more days",
+      "26 more days",
+      "27 more days",
+      "28 more days"
+    ],
+    "answer": "26 more days"
+  },
+  {
+    "id": 63,
+    "topic": "Average",
+    "difficulty": "Medium",
+    "question": "The average of 10, 20, 30, 40, 50 is:",
+    "options": [
+      "25",
+      "28",
+      "30",
+      "35"
+    ],
+    "answer": "30"
+  },
+  {
+    "id": 64,
+    "topic": "Areas",
+    "difficulty": "Hard",
+    "question": "Area of a triangle with base 10 cm and height 6 cm:",
+    "options": [
+      "25 cm\u00b2",
+      "30 cm\u00b2",
+      "35 cm\u00b2",
+      "60 cm\u00b2"
+    ],
+    "answer": "30 cm\u00b2"
+  },
+  {
+    "id": 65,
+    "topic": "Compound Interest",
+    "difficulty": "Easy",
+    "question": "CI on Rs 5000 at 8% for 1 year compounded half-yearly:",
+    "options": [
+      "Rs 400",
+      "Rs 404",
+      "Rs 408",
+      "Rs 412"
+    ],
+    "answer": "Rs 408"
+  },
+  {
+    "id": 66,
+    "topic": "Races and Games",
+    "difficulty": "Medium",
+    "question": "In a 500 m race, A beats B by 100 m. A:B speed ratio:",
+    "options": [
+      "4:5",
+      "5:4",
+      "5:3",
+      "3:5"
+    ],
+    "answer": "5:4"
+  },
+  {
+    "id": 67,
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "question": "A invests Rs 5000 for 12 months, B Rs 6000 for 10 months. Profit ratio:",
+    "options": [
+      "1:1",
+      "5:6",
+      "6:5",
+      "3:2"
+    ],
+    "answer": "1:1"
+  },
+  {
+    "id": 68,
+    "topic": "Mensuration",
+    "difficulty": "Easy",
+    "question": "Circumference of a circle with diameter 14 cm (\u03c0 = 22/7):",
+    "options": [
+      "42 cm",
+      "44 cm",
+      "46 cm",
+      "48 cm"
+    ],
+    "answer": "44 cm"
+  },
+  {
+    "id": 69,
+    "topic": "Arithmetic",
+    "difficulty": "Medium",
+    "question": "What is 24 \u00d7 25?",
+    "options": [
+      "550",
+      "575",
+      "600",
+      "625"
+    ],
+    "answer": "600"
+  },
+  {
+    "id": 70,
+    "topic": "Time and Work",
+    "difficulty": "Easy",
+    "question": "10 men do a job in 20 days. How many men to do it in 10 days?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "25"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 71,
+    "topic": "Simple Equations",
+    "difficulty": "Easy",
+    "question": "If 2x + 3y = 12 and x = 3, value of y:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 72,
+    "topic": "Probability",
+    "difficulty": "Medium",
+    "question": "A card is drawn from 52 cards. Probability of getting a king:",
+    "options": [
+      "1/52",
+      "1/26",
+      "1/13",
+      "4/52"
+    ],
+    "answer": "1/13"
+  },
+  {
+    "id": 73,
+    "topic": "Problems on Numbers",
+    "difficulty": "Easy",
+    "question": "Three consecutive odd numbers sum to 57. Largest:",
+    "options": [
+      "17",
+      "19",
+      "21",
+      "23"
+    ],
+    "answer": "21"
+  },
+  {
+    "id": 74,
+    "topic": "Volumes",
+    "difficulty": "Hard",
+    "question": "Volume of a cylinder r = 7 cm, h = 5 cm (\u03c0 = 22/7):",
+    "options": [
+      "720 cm\u00b3",
+      "730 cm\u00b3",
+      "770 cm\u00b3",
+      "800 cm\u00b3"
+    ],
+    "answer": "770 cm\u00b3"
+  },
+  {
+    "id": 75,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Hard",
+    "question": "Product of two numbers = 2028, HCF = 13. LCM:",
+    "options": [
+      "144",
+      "148",
+      "152",
+      "156"
+    ],
+    "answer": "156"
+  },
+  {
+    "id": 76,
+    "topic": "Height and Distance",
+    "difficulty": "Easy",
+    "question": "At angle of elevation 60\u00b0, a tower's shadow is 40 m. Height of tower:",
+    "options": [
+      "40 m",
+      "40\u221a3 m",
+      "80 m",
+      "120 m"
+    ],
+    "answer": "40\u221a3 m"
+  },
+  {
+    "id": 77,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Hard",
+    "question": "Mean proportional of 4 and 36:",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 78,
+    "topic": "Boats and Streams",
+    "difficulty": "Easy",
+    "question": "A man rows 12 km downstream in 2 hours. If stream speed = 2 km/h, rowing speed in still water:",
+    "options": [
+      "4 km/h",
+      "5 km/h",
+      "6 km/h",
+      "7 km/h"
+    ],
+    "answer": "4 km/h"
+  },
+  {
+    "id": 79,
+    "topic": "Stocks and Shares",
+    "difficulty": "Easy",
+    "question": "Rs 100 stock paying 6% dividend bought at Rs 80. Yield:",
+    "options": [
+      "6%",
+      "7%",
+      "7.5%",
+      "8%"
+    ],
+    "answer": "7.5%"
+  },
+  {
+    "id": 80,
+    "topic": "Profit and Loss",
+    "difficulty": "Easy",
+    "question": "SP = Rs 1120, profit = 40%. CP:",
+    "options": [
+      "Rs 700",
+      "Rs 750",
+      "Rs 800",
+      "Rs 850"
+    ],
+    "answer": "Rs 800"
+  },
+  {
+    "id": 81,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Hard",
+    "question": "Two types of tea at Rs 40/kg and Rs 50/kg mixed in ratio 3:2. Price of mixture:",
+    "options": [
+      "Rs 42",
+      "Rs 43",
+      "Rs 44",
+      "Rs 46"
+    ],
+    "answer": "Rs 44"
+  },
+  {
+    "id": 82,
+    "topic": "Discount",
+    "difficulty": "Medium",
+    "question": "MP = Rs 800, SP = Rs 680. Discount%:",
+    "options": [
+      "10%",
+      "12%",
+      "14%",
+      "15%"
+    ],
+    "answer": "15%"
+  },
+  {
+    "id": 83,
+    "topic": "Time and Distance",
+    "difficulty": "Medium",
+    "question": "Two trains 200 m and 150 m long approach at 45 and 30 km/h opposite directions. Time to cross:",
+    "options": [
+      "18 s",
+      "20 s",
+      "22 s",
+      "24 s"
+    ],
+    "answer": "20 s"
+  },
+  {
+    "id": 84,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Easy",
+    "question": "How many 3-letter words can be formed from ABCDE without repetition?",
+    "options": [
+      "30",
+      "45",
+      "60",
+      "80"
+    ],
+    "answer": "60"
+  },
+  {
+    "id": 85,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Hard",
+    "question": "Total surface area of cuboid 6\u00d74\u00d73 cm:",
+    "options": [
+      "100 cm\u00b2",
+      "108 cm\u00b2",
+      "120 cm\u00b2",
+      "144 cm\u00b2"
+    ],
+    "answer": "108 cm\u00b2"
+  },
+  {
+    "id": 86,
+    "topic": "Percentage",
+    "difficulty": "Easy",
+    "question": "A number decreased by 25% gives 60. Number:",
+    "options": [
+      "75",
+      "80",
+      "85",
+      "90"
+    ],
+    "answer": "80"
+  },
+  {
+    "id": 87,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Hard",
+    "question": "Simplify: 8 + (4 \u00d7 3) \u00f7 2 - 5",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 88,
+    "topic": "Simple Interest",
+    "difficulty": "Easy",
+    "question": "In how many years will Rs 1200 give SI of Rs 360 at 6%?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "answer": "5 years"
+  },
+  {
+    "id": 89,
+    "topic": "Basic Maths",
+    "difficulty": "Medium",
+    "question": "What is the square root of 144?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 90,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Easy",
+    "question": "Find the odd one out: 1, 4, 9, 16, 23, 25",
+    "options": [
+      "4",
+      "9",
+      "16",
+      "23"
+    ],
+    "answer": "23"
+  },
+  {
+    "id": 91,
+    "topic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Sum of roots of 2x\u00b2 + 5x - 3 = 0:",
+    "options": [
+      "-5/2",
+      "3/2",
+      "5/2",
+      "-3/2"
+    ],
+    "answer": "-5/2"
+  },
+  {
+    "id": 92,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Hard",
+    "question": "Two pipes fill tank in 20 and 30 minutes. Both open, time to fill:",
+    "options": [
+      "10 min",
+      "12 min",
+      "15 min",
+      "18 min"
+    ],
+    "answer": "12 min"
+  },
+  {
+    "id": 93,
+    "topic": "Men Food",
+    "difficulty": "Hard",
+    "question": "20 men consume 60 kg in 20 days. How many kg do 15 men consume in 10 days?",
+    "options": [
+      "20 kg",
+      "22.5 kg",
+      "25 kg",
+      "30 kg"
+    ],
+    "answer": "22.5 kg"
+  },
+  {
+    "id": 94,
+    "topic": "Average",
+    "difficulty": "Hard",
+    "question": "A cricketer scores 45, 60, 55, 80, and 70 in 5 innings. His average score is:",
+    "options": [
+      "58",
+      "60",
+      "62",
+      "64"
+    ],
+    "answer": "62"
+  },
+  {
+    "id": 95,
+    "topic": "Areas",
+    "difficulty": "Easy",
+    "question": "Area of a square with diagonal 10 cm:",
+    "options": [
+      "40 cm\u00b2",
+      "45 cm\u00b2",
+      "50 cm\u00b2",
+      "55 cm\u00b2"
+    ],
+    "answer": "50 cm\u00b2"
+  },
+  {
+    "id": 96,
+    "topic": "Compound Interest",
+    "difficulty": "Hard",
+    "question": "Difference between CI and SI for 2 years at 5% on Rs 4000:",
+    "options": [
+      "Rs 8",
+      "Rs 10",
+      "Rs 12",
+      "Rs 15"
+    ],
+    "answer": "Rs 10"
+  },
+  {
+    "id": 97,
+    "topic": "Races and Games",
+    "difficulty": "Medium",
+    "question": "A gives B 20 m start in 200 m race and beats by 5 m. A:B speed ratio:",
+    "options": [
+      "8:7",
+      "40:35",
+      "200:175",
+      "200:180"
+    ],
+    "answer": "200:175"
+  },
+  {
+    "id": 98,
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "question": "A and B invest Rs 4000 and Rs 5000 for 6 and 8 months. Profit ratio:",
+    "options": [
+      "3:5",
+      "4:5",
+      "24:40",
+      "3:4"
+    ],
+    "answer": "3:5"
+  },
+  {
+    "id": 99,
+    "topic": "Mensuration",
+    "difficulty": "Hard",
+    "question": "Volume of a cube with side 5 cm:",
+    "options": [
+      "100 cm\u00b3",
+      "115 cm\u00b3",
+      "120 cm\u00b3",
+      "125 cm\u00b3"
+    ],
+    "answer": "125 cm\u00b3"
+  },
+  {
+    "id": 100,
+    "topic": "Arithmetic",
+    "difficulty": "Hard",
+    "question": "What is 576 \u00f7 24?",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 101,
+    "topic": "Time and Work",
+    "difficulty": "Hard",
+    "question": "A does work in 12 days, B in 16 days. They work together for 4 days. Remaining fraction:",
+    "options": [
+      "1/4",
+      "1/3",
+      "5/12",
+      "7/12"
+    ],
+    "answer": "5/12"
+  },
+  {
+    "id": 102,
+    "topic": "Simple Equations",
+    "difficulty": "Easy",
+    "question": "Solve: (x/3) + 4 = 7",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 103,
+    "topic": "Probability",
+    "difficulty": "Hard",
+    "question": "Two coins tossed. Probability of getting exactly one head:",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "3/4"
+    ],
+    "answer": "1/2"
+  },
+  {
+    "id": 104,
+    "topic": "Problems on Numbers",
+    "difficulty": "Medium",
+    "question": "Two numbers are in ratio 3:5 and sum = 96. Smaller number:",
+    "options": [
+      "32",
+      "36",
+      "40",
+      "44"
+    ],
+    "answer": "36"
+  },
+  {
+    "id": 105,
+    "topic": "Volumes",
+    "difficulty": "Easy",
+    "question": "If side of cube is doubled, its volume becomes:",
+    "options": [
+      "2 times",
+      "4 times",
+      "6 times",
+      "8 times"
+    ],
+    "answer": "8 times"
+  },
+  {
+    "id": 106,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Hard",
+    "question": "HCF of two numbers is 12 and LCM is 360. One number is 36. Other is:",
+    "options": [
+      "90",
+      "100",
+      "110",
+      "120"
+    ],
+    "answer": "120"
+  },
+  {
+    "id": 107,
+    "topic": "Height and Distance",
+    "difficulty": "Hard",
+    "question": "Two poles 15 m and 5 m high. If they are 20 m apart, distance between tops:",
+    "options": [
+      "20 m",
+      "22.4 m",
+      "25 m",
+      "28 m"
+    ],
+    "answer": "22.4 m"
+  },
+  {
+    "id": 108,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Easy",
+    "question": "If 15:x = x:60, value of x:",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "answer": "30"
+  },
+  {
+    "id": 109,
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "question": "Downstream speed = 14 km/h, upstream speed = 6 km/h. Speed of stream:",
+    "options": [
+      "3 km/h",
+      "4 km/h",
+      "5 km/h",
+      "6 km/h"
+    ],
+    "answer": "4 km/h"
+  },
+  {
+    "id": 110,
+    "topic": "Stocks and Shares",
+    "difficulty": "Easy",
+    "question": "To earn Rs 500 annually from 5% stock at Rs 110, investment needed:",
+    "options": [
+      "Rs 9000",
+      "Rs 10000",
+      "Rs 11000",
+      "Rs 12000"
+    ],
+    "answer": "Rs 11000"
+  },
+  {
+    "id": 111,
+    "topic": "Profit and Loss",
+    "difficulty": "Easy",
+    "question": "By selling at Rs 950, a trader loses 5%. To gain 5%, SP should be:",
+    "options": [
+      "Rs 1000",
+      "Rs 1050",
+      "Rs 1100",
+      "Rs 1150"
+    ],
+    "answer": "Rs 1050"
+  },
+  {
+    "id": 112,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Hard",
+    "question": "Alloy A: 70% copper, Alloy B: 40% copper. Ratio to get 60% copper alloy:",
+    "options": [
+      "1:2",
+      "2:1",
+      "1:1",
+      "3:2"
+    ],
+    "answer": "2:1"
+  },
+  {
+    "id": 113,
+    "topic": "Discount",
+    "difficulty": "Medium",
+    "question": "A discount of 30% on MP Rs 1000. SP is:",
+    "options": [
+      "Rs 600",
+      "Rs 650",
+      "Rs 700",
+      "Rs 750"
+    ],
+    "answer": "Rs 700"
+  },
+  {
+    "id": 114,
+    "topic": "Time and Distance",
+    "difficulty": "Hard",
+    "question": "A man covers 7 km in 2 hours on foot and 3 km in 30 min by cycle. Average speed:",
+    "options": [
+      "4 km/h",
+      "5 km/h",
+      "6 km/h",
+      "7 km/h"
+    ],
+    "answer": "4 km/h"
+  },
+  {
+    "id": 115,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Medium",
+    "question": "In how many ways can a committee of 3 be chosen from 8 people?",
+    "options": [
+      "36",
+      "48",
+      "56",
+      "64"
+    ],
+    "answer": "56"
+  },
+  {
+    "id": 116,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Hard",
+    "question": "Slant height of cone with r = 5 cm, h = 12 cm:",
+    "options": [
+      "11 cm",
+      "12 cm",
+      "13 cm",
+      "14 cm"
+    ],
+    "answer": "13 cm"
+  },
+  {
+    "id": 117,
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "question": "60% of 800 + 40% of 500 = ?",
+    "options": [
+      "640",
+      "660",
+      "680",
+      "700"
+    ],
+    "answer": "680"
+  },
+  {
+    "id": 118,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Easy",
+    "question": "Approximate: 3.99 \u00d7 12.02 \u2248 ?",
+    "options": [
+      "46",
+      "48",
+      "50",
+      "52"
+    ],
+    "answer": "48"
+  },
+  {
+    "id": 119,
+    "topic": "Simple Interest",
+    "difficulty": "Hard",
+    "question": "A sum becomes Rs 1400 in 4 years at 5% SI. Principal is:",
+    "options": [
+      "Rs 1000",
+      "Rs 1100",
+      "Rs 1150",
+      "Rs 1200"
+    ],
+    "answer": "Rs 1166.67"
+  },
+  {
+    "id": 120,
+    "topic": "Basic Maths",
+    "difficulty": "Easy",
+    "question": "Which number is neither prime nor composite?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 121,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Hard",
+    "question": "Find the odd one out: 8, 27, 64, 100, 125",
+    "options": [
+      "27",
+      "64",
+      "100",
+      "125"
+    ],
+    "answer": "100"
+  },
+  {
+    "id": 122,
+    "topic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Product of roots of 3x\u00b2 - 7x + 2 = 0:",
+    "options": [
+      "2/3",
+      "7/3",
+      "-2/3",
+      "-7/3"
+    ],
+    "answer": "2/3"
+  },
+  {
+    "id": 123,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "question": "Pipe A fills in 3 hours, B in 4 hours, C empties in 6 hours. All open, fill time:",
+    "options": [
+      "3 hours",
+      "4 hours",
+      "5 hours",
+      "6 hours"
+    ],
+    "answer": "4 hours"
+  },
+  {
+    "id": 124,
+    "topic": "Men Food",
+    "difficulty": "Hard",
+    "question": "Food for 80 persons for 30 days. How many days for 60 persons?",
+    "options": [
+      "35 days",
+      "40 days",
+      "45 days",
+      "50 days"
+    ],
+    "answer": "40 days"
+  },
+  {
+    "id": 125,
+    "topic": "Average",
+    "difficulty": "Hard",
+    "question": "The average age of a group of 10 students is 14 years. If one student of age 18 joins, the new average is:",
+    "options": [
+      "14.0",
+      "14.2",
+      "14.4",
+      "14.5"
+    ],
+    "answer": "14.4"
+  },
+  {
+    "id": 126,
+    "topic": "Areas",
+    "difficulty": "Hard",
+    "question": "Perimeter of a rectangle is 40 cm and length is 12 cm. Area is:",
+    "options": [
+      "80 cm\u00b2",
+      "96 cm\u00b2",
+      "100 cm\u00b2",
+      "112 cm\u00b2"
+    ],
+    "answer": "96 cm\u00b2"
+  },
+  {
+    "id": 127,
+    "topic": "Compound Interest",
+    "difficulty": "Hard",
+    "question": "Principal = Rs 2000, rate = 5% CI, time = 2 years. Amount is:",
+    "options": [
+      "Rs 2200",
+      "Rs 2205",
+      "Rs 2210",
+      "Rs 2250"
+    ],
+    "answer": "Rs 2205"
+  },
+  {
+    "id": 128,
+    "topic": "Races and Games",
+    "difficulty": "Easy",
+    "question": "In a game, A can give B 20 points and B can give C 15 points in 100. A can give C:",
+    "options": [
+      "30",
+      "32",
+      "35",
+      "38"
+    ],
+    "answer": "32"
+  },
+  {
+    "id": 129,
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "question": "A invests Rs 12,000 for 6 months, B Rs 8000 for 9 months. Profit Rs 12,700. A's profit:",
+    "options": [
+      "Rs 5400",
+      "Rs 6000",
+      "Rs 6350",
+      "Rs 7300"
+    ],
+    "answer": "Rs 6000"
+  },
+  {
+    "id": 130,
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "question": "Lateral surface area of a cylinder with r = 7 cm, h = 10 cm (\u03c0 = 22/7):",
+    "options": [
+      "420 cm\u00b2",
+      "430 cm\u00b2",
+      "440 cm\u00b2",
+      "450 cm\u00b2"
+    ],
+    "answer": "440 cm\u00b2"
+  },
+  {
+    "id": 131,
+    "topic": "Arithmetic",
+    "difficulty": "Medium",
+    "question": "What is the value of 12 \u00d7 12 - 44?",
+    "options": [
+      "96",
+      "100",
+      "104",
+      "108"
+    ],
+    "answer": "100"
+  },
+  {
+    "id": 132,
+    "topic": "Time and Work",
+    "difficulty": "Easy",
+    "question": "If 12 workers finish job in 18 days, how long for 6 workers?",
+    "options": [
+      "24 days",
+      "30 days",
+      "36 days",
+      "42 days"
+    ],
+    "answer": "36 days"
+  },
+  {
+    "id": 133,
+    "topic": "Simple Equations",
+    "difficulty": "Easy",
+    "question": "Solve: 7x - 4(2x - 1) = 4",
+    "options": [
+      "0",
+      "8",
+      "16",
+      "None of these"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 134,
+    "topic": "Probability",
+    "difficulty": "Hard",
+    "question": "A bag has 3 red and 5 blue balls. Probability of picking red:",
+    "options": [
+      "1/4",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "answer": "3/8"
+  },
+  {
+    "id": 135,
+    "topic": "Problems on Numbers",
+    "difficulty": "Medium",
+    "question": "A number is 5 times another. Their sum is 60. Numbers:",
+    "options": [
+      "8 and 40",
+      "10 and 50",
+      "12 and 60",
+      "9 and 45"
+    ],
+    "answer": "10 and 50"
+  },
+  {
+    "id": 136,
+    "topic": "Volumes",
+    "difficulty": "Easy",
+    "question": "Volume of a sphere with r = 6 cm (\u03c0 \u2248 3.14):",
+    "options": [
+      "888 cm\u00b3",
+      "904.32 cm\u00b3",
+      "920 cm\u00b3",
+      "940 cm\u00b3"
+    ],
+    "answer": "904.32 cm\u00b3"
+  },
+  {
+    "id": 137,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Easy",
+    "question": "Which is the smallest number divisible by 6, 9, 12, 15?",
+    "options": [
+      "120",
+      "150",
+      "160",
+      "180"
+    ],
+    "answer": "180"
+  },
+  {
+    "id": 138,
+    "topic": "Height and Distance",
+    "difficulty": "Hard",
+    "question": "Angle of depression from top of cliff to a boat is 30\u00b0. Cliff height = 100 m. Distance of boat:",
+    "options": [
+      "100 m",
+      "100\u221a3 m",
+      "100/\u221a3 m",
+      "50\u221a3 m"
+    ],
+    "answer": "100\u221a3 m"
+  },
+  {
+    "id": 139,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "question": "Two numbers in ratio 5:3. If each increased by 6, ratio becomes 7:5. Numbers:",
+    "options": [
+      "10 and 6",
+      "15 and 9",
+      "20 and 12",
+      "25 and 15"
+    ],
+    "answer": "15 and 9"
+  },
+  {
+    "id": 140,
+    "topic": "Boats and Streams",
+    "difficulty": "Easy",
+    "question": "A boat covers 40 km downstream in 4 hours. If stream speed = 3 km/h, upstream speed is:",
+    "options": [
+      "4 km/h",
+      "5 km/h",
+      "6 km/h",
+      "7 km/h"
+    ],
+    "answer": "4 km/h"
+  },
+  {
+    "id": 141,
+    "topic": "Stocks and Shares",
+    "difficulty": "Easy",
+    "question": "A man invests Rs 4500 in 8% stock at Rs 90. Annual income:",
+    "options": [
+      "Rs 380",
+      "Rs 400",
+      "Rs 420",
+      "Rs 440"
+    ],
+    "answer": "Rs 400"
+  },
+  {
+    "id": 142,
+    "topic": "Profit and Loss",
+    "difficulty": "Hard",
+    "question": "Two items sold at Rs 500 each: one at 20% profit, one at 20% loss. Net result:",
+    "options": [
+      "No gain, no loss",
+      "4% loss",
+      "4% gain",
+      "8% loss"
+    ],
+    "answer": "4% loss"
+  },
+  {
+    "id": 143,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Medium",
+    "question": "A vessel contains 40L spirit. 10L removed and replaced with water. Final concentration of spirit:",
+    "options": [
+      "60%",
+      "65%",
+      "70%",
+      "75%"
+    ],
+    "answer": "75%"
+  },
+  {
+    "id": 144,
+    "topic": "Discount",
+    "difficulty": "Easy",
+    "question": "Two articles for Rs 990 after 10% discount. MP of each:",
+    "options": [
+      "Rs 500",
+      "Rs 550",
+      "Rs 600",
+      "Rs 650"
+    ],
+    "answer": "Rs 550"
+  },
+  {
+    "id": 145,
+    "topic": "Time and Distance",
+    "difficulty": "Easy",
+    "question": "Speed of train is 72 km/h. In m/s:",
+    "options": [
+      "15 m/s",
+      "18 m/s",
+      "20 m/s",
+      "22 m/s"
+    ],
+    "answer": "20 m/s"
+  },
+  {
+    "id": 146,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Hard",
+    "question": "Number of ways to arrange letters of word 'DELHI':",
+    "options": [
+      "60",
+      "90",
+      "120",
+      "150"
+    ],
+    "answer": "120"
+  },
+  {
+    "id": 147,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Hard",
+    "question": "Surface area of sphere with r = 7 cm (\u03c0 = 22/7):",
+    "options": [
+      "596 cm\u00b2",
+      "610 cm\u00b2",
+      "616 cm\u00b2",
+      "628 cm\u00b2"
+    ],
+    "answer": "616 cm\u00b2"
+  },
+  {
+    "id": 148,
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "question": "In an exam, 30% students failed. 280 passed. Total students:",
+    "options": [
+      "350",
+      "380",
+      "400",
+      "420"
+    ],
+    "answer": "400"
+  },
+  {
+    "id": 149,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Medium",
+    "question": "Value of (0.6)\u00b3:",
+    "options": [
+      "0.216",
+      "0.36",
+      "0.196",
+      "0.226"
+    ],
+    "answer": "0.216"
+  },
+  {
+    "id": 150,
+    "topic": "Simple Interest",
+    "difficulty": "Hard",
+    "question": "SI for 2 years on Rs 3000 at 4% per annum:",
+    "options": [
+      "Rs 200",
+      "Rs 240",
+      "Rs 280",
+      "Rs 300"
+    ],
+    "answer": "Rs 240"
+  },
+  {
+    "id": 151,
+    "topic": "Basic Maths",
+    "difficulty": "Hard",
+    "question": "What is 15% of 200?",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "answer": "30"
+  },
+  {
+    "id": 152,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Hard",
+    "question": "Find the odd one out: 2, 5, 10, 17, 26, 37, 50",
+    "options": [
+      "5",
+      "10",
+      "17",
+      "26"
+    ],
+    "answer": "26"
+  },
+  {
+    "id": 153,
+    "topic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Roots of x\u00b2 + x - 12 = 0:",
+    "options": [
+      "3, -4",
+      "-3, 4",
+      "4, -3",
+      "6, -2"
+    ],
+    "answer": "3, -4"
+  },
+  {
+    "id": 154,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Easy",
+    "question": "A tap fills cistern in 2 hours. What fraction is filled in 40 minutes?",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/3"
+  },
+  {
+    "id": 155,
+    "topic": "Men Food",
+    "difficulty": "Hard",
+    "question": "If 8 men eat 8 loaves in 8 days, 1 man eats 1 loaf in how many days?",
+    "options": [
+      "1 day",
+      "4 days",
+      "8 days",
+      "16 days"
+    ],
+    "answer": "8 days"
+  },
+  {
+    "id": 156,
+    "topic": "Average",
+    "difficulty": "Easy",
+    "question": "The average of odd numbers from 1 to 9 is:",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 157,
+    "topic": "Areas",
+    "difficulty": "Hard",
+    "question": "Area of a parallelogram with base 8 cm and height 5 cm:",
+    "options": [
+      "30 cm\u00b2",
+      "35 cm\u00b2",
+      "40 cm\u00b2",
+      "45 cm\u00b2"
+    ],
+    "answer": "40 cm\u00b2"
+  },
+  {
+    "id": 158,
+    "topic": "Compound Interest",
+    "difficulty": "Easy",
+    "question": "If CI for 1st year = Rs 150 and for 2nd year = Rs 157.50, rate is:",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "7%"
+    ],
+    "answer": "5%"
+  },
+  {
+    "id": 159,
+    "topic": "Races and Games",
+    "difficulty": "Hard",
+    "question": "A beats B by 30 m in 300 m race. B beats C by 20 m in 300 m. A beats C by:",
+    "options": [
+      "46 m",
+      "48 m",
+      "50 m",
+      "52 m"
+    ],
+    "answer": "48 m"
+  },
+  {
+    "id": 160,
+    "topic": "Partnership",
+    "difficulty": "Hard",
+    "question": "A, B, C share profits in 3:4:5. Total profit Rs 7200. Difference between highest and lowest:",
+    "options": [
+      "Rs 720",
+      "Rs 1440",
+      "Rs 1440",
+      "Rs 2400"
+    ],
+    "answer": "Rs 1440"
+  },
+  {
+    "id": 161,
+    "topic": "Mensuration",
+    "difficulty": "Easy",
+    "question": "Area of sector with radius 6 cm and angle 60\u00b0:",
+    "options": [
+      "6\u03c0 cm\u00b2",
+      "8\u03c0 cm\u00b2",
+      "10\u03c0 cm\u00b2",
+      "12\u03c0 cm\u00b2"
+    ],
+    "answer": "6\u03c0 cm\u00b2"
+  },
+  {
+    "id": 162,
+    "topic": "Arithmetic",
+    "difficulty": "Medium",
+    "question": "Which of the following is divisible by 11?",
+    "options": [
+      "121",
+      "123",
+      "125",
+      "127"
+    ],
+    "answer": "121"
+  },
+  {
+    "id": 163,
+    "topic": "Time and Work",
+    "difficulty": "Medium",
+    "question": "A can do a job in 6 days, B in 12 days. A works alone for 3 days, then B joins. Total time:",
+    "options": [
+      "5 days",
+      "6 days",
+      "7 days",
+      "8 days"
+    ],
+    "answer": "5 days"
+  },
+  {
+    "id": 164,
+    "topic": "Simple Equations",
+    "difficulty": "Hard",
+    "question": "Sum of two numbers is 42. One is twice the other. Larger number:",
+    "options": [
+      "14",
+      "21",
+      "28",
+      "35"
+    ],
+    "answer": "28"
+  },
+  {
+    "id": 165,
+    "topic": "Probability",
+    "difficulty": "Hard",
+    "question": "Probability of getting sum = 7 when two dice are rolled:",
+    "options": [
+      "1/9",
+      "1/6",
+      "5/36",
+      "7/36"
+    ],
+    "answer": "1/6"
+  },
+  {
+    "id": 166,
+    "topic": "Problems on Numbers",
+    "difficulty": "Medium",
+    "question": "Sum of two numbers is 55. One exceeds the other by 11. Larger number:",
+    "options": [
+      "28",
+      "30",
+      "33",
+      "36"
+    ],
+    "answer": "33"
+  },
+  {
+    "id": 167,
+    "topic": "Volumes",
+    "difficulty": "Hard",
+    "question": "A box is 2 m \u00d7 1.5 m \u00d7 0.5 m. Volume in litres:",
+    "options": [
+      "1000 L",
+      "1200 L",
+      "1500 L",
+      "1800 L"
+    ],
+    "answer": "1500 L"
+  },
+  {
+    "id": 168,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Medium",
+    "question": "HCF of 0.9, 0.18, 0.27:",
+    "options": [
+      "0.03",
+      "0.06",
+      "0.09",
+      "0.18"
+    ],
+    "answer": "0.09"
+  },
+  {
+    "id": 169,
+    "topic": "Height and Distance",
+    "difficulty": "Hard",
+    "question": "A kite is flying at height 60 m. String length is 120 m. Angle of elevation:",
+    "options": [
+      "30\u00b0",
+      "45\u00b0",
+      "60\u00b0",
+      "90\u00b0"
+    ],
+    "answer": "30\u00b0"
+  },
+  {
+    "id": 170,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Hard",
+    "question": "A:B = 3:4, B:C = 6:7. A:B:C =",
+    "options": [
+      "9:12:14",
+      "3:4:7",
+      "6:8:7",
+      "18:24:28"
+    ],
+    "answer": "9:12:14"
+  },
+  {
+    "id": 171,
+    "topic": "Boats and Streams",
+    "difficulty": "Hard",
+    "question": "If downstream speed = 16 km/h and upstream = 10 km/h, speed of boat in still water:",
+    "options": [
+      "11 km/h",
+      "12 km/h",
+      "13 km/h",
+      "14 km/h"
+    ],
+    "answer": "13 km/h"
+  },
+  {
+    "id": 172,
+    "topic": "Stocks and Shares",
+    "difficulty": "Medium",
+    "question": "Rs 100 share quoted at Rs 125. Brokerage 1%. Purchase price:",
+    "options": [
+      "Rs 124",
+      "Rs 126",
+      "Rs 126.25",
+      "Rs 127"
+    ],
+    "answer": "Rs 126.25"
+  },
+  {
+    "id": 173,
+    "topic": "Profit and Loss",
+    "difficulty": "Easy",
+    "question": "Selling at Rs 840 gives 5% profit. CP is:",
+    "options": [
+      "Rs 750",
+      "Rs 780",
+      "Rs 800",
+      "Rs 820"
+    ],
+    "answer": "Rs 800"
+  },
+  {
+    "id": 174,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Hard",
+    "question": "Sugar at Rs 30/kg and Rs 45/kg mixed to get Rs 35/kg mixture. Ratio:",
+    "options": [
+      "1:2",
+      "2:1",
+      "2:3",
+      "3:2"
+    ],
+    "answer": "2:1"
+  },
+  {
+    "id": 175,
+    "topic": "Discount",
+    "difficulty": "Easy",
+    "question": "Marked price Rs 1200, two successive discounts 10% and 5%. SP:",
+    "options": [
+      "Rs 1000",
+      "Rs 1026",
+      "Rs 1050",
+      "Rs 1100"
+    ],
+    "answer": "Rs 1026"
+  },
+  {
+    "id": 176,
+    "topic": "Time and Distance",
+    "difficulty": "Hard",
+    "question": "A travels at 20 km/h, B at 30 km/h. They start same point simultaneously in same direction. After 4 hours, distance between them:",
+    "options": [
+      "30 km",
+      "35 km",
+      "40 km",
+      "45 km"
+    ],
+    "answer": "40 km"
+  },
+  {
+    "id": 177,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Medium",
+    "question": "\u2078P\u2083 equals:",
+    "options": [
+      "168",
+      "210",
+      "280",
+      "336"
+    ],
+    "answer": "336"
+  },
+  {
+    "id": 178,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Medium",
+    "question": "A cone and cylinder have same base radius and height. Volume ratio:",
+    "options": [
+      "1:2",
+      "1:3",
+      "2:3",
+      "3:1"
+    ],
+    "answer": "1:3"
+  },
+  {
+    "id": 179,
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "question": "A's salary is 20% more than B's. B's is what % less than A's?",
+    "options": [
+      "16.67%",
+      "18%",
+      "20%",
+      "25%"
+    ],
+    "answer": "16.67%"
+  },
+  {
+    "id": 180,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Medium",
+    "question": "Simplify: 1000 \u00f7 25 \u00d7 4 + 80 - 60",
+    "options": [
+      "175",
+      "180",
+      "185",
+      "190"
+    ],
+    "answer": "180"
+  },
+  {
+    "id": 181,
+    "topic": "Simple Interest",
+    "difficulty": "Medium",
+    "question": "Rs 5000 invested at 8% SI. After 3 years, total amount:",
+    "options": [
+      "Rs 6000",
+      "Rs 6200",
+      "Rs 6400",
+      "Rs 6800"
+    ],
+    "answer": "Rs 6200"
+  },
+  {
+    "id": 182,
+    "topic": "Basic Maths",
+    "difficulty": "Hard",
+    "question": "What is the value of 2^10?",
+    "options": [
+      "512",
+      "1000",
+      "1024",
+      "2048"
+    ],
+    "answer": "1024"
+  },
+  {
+    "id": 183,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Hard",
+    "question": "Find the odd one out: 10, 25, 45, 54, 60, 75, 80",
+    "options": [
+      "45",
+      "54",
+      "60",
+      "80"
+    ],
+    "answer": "54"
+  },
+  {
+    "id": 184,
+    "topic": "Quadratic Equations",
+    "difficulty": "Easy",
+    "question": "Discriminant of 2x\u00b2 - 5x + 3 = 0:",
+    "options": [
+      "1",
+      "4",
+      "9",
+      "16"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 185,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "question": "Pipe A fills in 5 hrs, B in 10 hrs, C empties in 15 hrs. Together, time to fill:",
+    "options": [
+      "5 hrs",
+      "6 hrs",
+      "7 hrs",
+      "8 hrs"
+    ],
+    "answer": "6 hrs"
+  },
+  {
+    "id": 186,
+    "topic": "Men Food",
+    "difficulty": "Easy",
+    "question": "A group of 30 persons has food for 45 days. After 15 days, some join and food lasts 20 more days. Persons joined:",
+    "options": [
+      "15",
+      "20",
+      "22",
+      "25"
+    ],
+    "answer": "15"
+  },
+  {
+    "id": 187,
+    "topic": "Average",
+    "difficulty": "Medium",
+    "question": "Average of first 10 natural numbers is:",
+    "options": [
+      "4.5",
+      "5",
+      "5.5",
+      "6"
+    ],
+    "answer": "5.5"
+  },
+  {
+    "id": 188,
+    "topic": "Areas",
+    "difficulty": "Medium",
+    "question": "If radius of circle is doubled, area becomes:",
+    "options": [
+      "2 times",
+      "3 times",
+      "4 times",
+      "6 times"
+    ],
+    "answer": "4 times"
+  },
+  {
+    "id": 189,
+    "topic": "Compound Interest",
+    "difficulty": "Hard",
+    "question": "Amount after 3 years at 10% CI on Rs 1000:",
+    "options": [
+      "Rs 1300",
+      "Rs 1310",
+      "Rs 1320",
+      "Rs 1331"
+    ],
+    "answer": "Rs 1331"
+  },
+  {
+    "id": 190,
+    "topic": "Races and Games",
+    "difficulty": "Easy",
+    "question": "In a circular race on 1200 m track, A and B start at same time, A at 18 km/h, B at 12 km/h. After how many seconds first meeting?",
+    "options": [
+      "360 s",
+      "480 s",
+      "720 s",
+      "840 s"
+    ],
+    "answer": "720 s"
+  },
+  {
+    "id": 191,
+    "topic": "Partnership",
+    "difficulty": "Easy",
+    "question": "A and B enter partnership with Rs 30,000 and Rs 40,000. B is working partner at Rs 1000/month. Annual profit Rs 24,000. A's share:",
+    "options": [
+      "Rs 6000",
+      "Rs 7200",
+      "Rs 8400",
+      "Rs 9000"
+    ],
+    "answer": "Rs 7200"
+  },
+  {
+    "id": 192,
+    "topic": "Mensuration",
+    "difficulty": "Hard",
+    "question": "Volume of sphere with radius 3 cm (\u03c0 = 22/7):",
+    "options": [
+      "108 cm\u00b3",
+      "112 cm\u00b3",
+      "113.14 cm\u00b3",
+      "120 cm\u00b3"
+    ],
+    "answer": "113.14 cm\u00b3"
+  },
+  {
+    "id": 193,
+    "topic": "Arithmetic",
+    "difficulty": "Medium",
+    "question": "What is 7/8 of 640?",
+    "options": [
+      "480",
+      "520",
+      "560",
+      "580"
+    ],
+    "answer": "560"
+  },
+  {
+    "id": 194,
+    "topic": "Time and Work",
+    "difficulty": "Hard",
+    "question": "A, B, C can do work in 4, 6, 12 days. Together they finish in:",
+    "options": [
+      "2 days",
+      "3 days",
+      "4 days",
+      "5 days"
+    ],
+    "answer": "2 days"
+  },
+  {
+    "id": 195,
+    "topic": "Simple Equations",
+    "difficulty": "Medium",
+    "question": "Solve: 2(x + 3) = 3(x - 1)",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 196,
+    "topic": "Probability",
+    "difficulty": "Hard",
+    "question": "From 10 tickets numbered 1\u201310, probability of drawing an even number:",
+    "options": [
+      "2/5",
+      "1/3",
+      "1/2",
+      "3/5"
+    ],
+    "answer": "1/2"
+  },
+  {
+    "id": 197,
+    "topic": "Problems on Numbers",
+    "difficulty": "Easy",
+    "question": "Product of two numbers = 336. They are in ratio 3:7. Smaller number:",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 198,
+    "topic": "Volumes",
+    "difficulty": "Medium",
+    "question": "Volume of hollow cylinder: outer r = 5 cm, inner r = 3 cm, h = 10 cm (\u03c0 \u2248 3.14):",
+    "options": [
+      "498.4 cm\u00b3",
+      "502.4 cm\u00b3",
+      "512.4 cm\u00b3",
+      "520 cm\u00b3"
+    ],
+    "answer": "502.4 cm\u00b3"
+  },
+  {
+    "id": 199,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Easy",
+    "question": "Two numbers in ratio 3:4, HCF = 5. Their LCM:",
+    "options": [
+      "50",
+      "55",
+      "60",
+      "65"
+    ],
+    "answer": "60"
+  },
+  {
+    "id": 200,
+    "topic": "Height and Distance",
+    "difficulty": "Easy",
+    "question": "From top of a building 50 m high, angle of depression of a car is 45\u00b0. Distance of car:",
+    "options": [
+      "25 m",
+      "50 m",
+      "75 m",
+      "100 m"
+    ],
+    "answer": "50 m"
+  },
+  {
+    "id": 201,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Hard",
+    "question": "Third proportional to 12 and 18:",
+    "options": [
+      "24",
+      "27",
+      "30",
+      "36"
+    ],
+    "answer": "27"
+  },
+  {
+    "id": 202,
+    "topic": "Boats and Streams",
+    "difficulty": "Easy",
+    "question": "A boat goes 30 km upstream in 6 hours and 30 km downstream in 3 hours. Speed of stream:",
+    "options": [
+      "2.5 km/h",
+      "3 km/h",
+      "3.5 km/h",
+      "2 km/h"
+    ],
+    "answer": "2.5 km/h"
+  },
+  {
+    "id": 203,
+    "topic": "Stocks and Shares",
+    "difficulty": "Easy",
+    "question": "Rs 100 stock paying 9% dividend at Rs 75. Income on Rs 6000 investment:",
+    "options": [
+      "Rs 680",
+      "Rs 700",
+      "Rs 720",
+      "Rs 750"
+    ],
+    "answer": "Rs 720"
+  },
+  {
+    "id": 204,
+    "topic": "Profit and Loss",
+    "difficulty": "Easy",
+    "question": "Selling 30 articles for price of 25 articles. Profit%:",
+    "options": [
+      "10%",
+      "12%",
+      "16.67%",
+      "20%"
+    ],
+    "answer": "16.67%"
+  },
+  {
+    "id": 205,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Hard",
+    "question": "Petrol at Rs 70 and Rs 80 per L. Mixture sells at Rs 76/L. Ratio:",
+    "options": [
+      "2:3",
+      "3:2",
+      "1:2",
+      "2:1"
+    ],
+    "answer": "2:3"
+  },
+  {
+    "id": 206,
+    "topic": "Discount",
+    "difficulty": "Easy",
+    "question": "A dealer gives 5% extra discount on already 10% discounted MP Rs 500. Final SP:",
+    "options": [
+      "Rs 395",
+      "Rs 400",
+      "Rs 427.50",
+      "Rs 450"
+    ],
+    "answer": "Rs 427.50"
+  },
+  {
+    "id": 207,
+    "topic": "Time and Distance",
+    "difficulty": "Easy",
+    "question": "Train 300 m long passes a pole in 30 s. Speed:",
+    "options": [
+      "36 km/h",
+      "40 km/h",
+      "42 km/h",
+      "48 km/h"
+    ],
+    "answer": "36 km/h"
+  },
+  {
+    "id": 208,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Easy",
+    "question": "How many 4-digit numbers can be formed using digits 1\u20139 without repetition?",
+    "options": [
+      "2016",
+      "3024",
+      "3456",
+      "4032"
+    ],
+    "answer": "3024"
+  },
+  {
+    "id": 209,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Hard",
+    "question": "Lateral surface area of cone with r = 3.5 cm, l = 10 cm (\u03c0 = 22/7):",
+    "options": [
+      "110 cm\u00b2",
+      "115 cm\u00b2",
+      "120 cm\u00b2",
+      "125 cm\u00b2"
+    ],
+    "answer": "110 cm\u00b2"
+  },
+  {
+    "id": 210,
+    "topic": "Percentage",
+    "difficulty": "Medium",
+    "question": "Two successive increases of 10% and 20%. Total increase%:",
+    "options": [
+      "28%",
+      "30%",
+      "32%",
+      "35%"
+    ],
+    "answer": "32%"
+  },
+  {
+    "id": 211,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Medium",
+    "question": "3/4 of 1/3 of 480 = ?",
+    "options": [
+      "80",
+      "90",
+      "100",
+      "120"
+    ],
+    "answer": "120"
+  },
+  {
+    "id": 212,
+    "topic": "Simple Interest",
+    "difficulty": "Easy",
+    "question": "If principal = Rs 4000, SI = Rs 500, time = 2.5 years. Rate is:",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "8%"
+    ],
+    "answer": "5%"
+  },
+  {
+    "id": 213,
+    "topic": "Basic Maths",
+    "difficulty": "Easy",
+    "question": "The sum of interior angles of a triangle is:",
+    "options": [
+      "90\u00b0",
+      "180\u00b0",
+      "270\u00b0",
+      "360\u00b0"
+    ],
+    "answer": "180\u00b0"
+  },
+  {
+    "id": 214,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Easy",
+    "question": "Find the odd one out: 6, 9, 15, 21, 24, 28",
+    "options": [
+      "6",
+      "15",
+      "24",
+      "28"
+    ],
+    "answer": "28"
+  },
+  {
+    "id": 215,
+    "topic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Roots of x\u00b2 - 7x + 10 = 0:",
+    "options": [
+      "2, 5",
+      "3, 4",
+      "1, 10",
+      "5, 7"
+    ],
+    "answer": "2, 5"
+  },
+  {
+    "id": 216,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "question": "Two pipes fill a tank in 6 and 9 hours. Leak empties it in 18 hours. Together:",
+    "options": [
+      "5 hrs",
+      "6 hrs",
+      "7 hrs",
+      "9 hrs"
+    ],
+    "answer": "9 hrs"
+  },
+  {
+    "id": 217,
+    "topic": "Men Food",
+    "difficulty": "Hard",
+    "question": "7 men can eat 7 sacks in 7 weeks. How many sacks do 4 men eat in 4 weeks?",
+    "options": [
+      "4/7 sacks",
+      "16/7 sacks",
+      "4 sacks",
+      "7 sacks"
+    ],
+    "answer": "16/7 sacks"
+  },
+  {
+    "id": 218,
+    "topic": "Average",
+    "difficulty": "Medium",
+    "question": "If the average of 6, 8, 10, 12 and x is 9, find x:",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9"
+  },
+  {
+    "id": 219,
+    "topic": "Areas",
+    "difficulty": "Medium",
+    "question": "Area of a trapezium with parallel sides 10 cm, 6 cm and height 4 cm:",
+    "options": [
+      "28 cm\u00b2",
+      "32 cm\u00b2",
+      "36 cm\u00b2",
+      "40 cm\u00b2"
+    ],
+    "answer": "32 cm\u00b2"
+  },
+  {
+    "id": 220,
+    "topic": "Compound Interest",
+    "difficulty": "Medium",
+    "question": "CI on Rs 8000 for 3 years at 5% per annum:",
+    "options": [
+      "Rs 1200",
+      "Rs 1240",
+      "Rs 1261",
+      "Rs 1300"
+    ],
+    "answer": "Rs 1261"
+  },
+  {
+    "id": 221,
+    "topic": "Races and Games",
+    "difficulty": "Hard",
+    "question": "In a 400 m race, A gives B 40 m and still wins by 19 m. A:B speed ratio:",
+    "options": [
+      "20:17",
+      "10:9",
+      "400:361",
+      "40:36"
+    ],
+    "answer": "20:17"
+  },
+  {
+    "id": 222,
+    "topic": "Partnership",
+    "difficulty": "Easy",
+    "question": "A and B invest in ratio 3:2. A invests for 4 months, B for 6 months. Profit ratio:",
+    "options": [
+      "2:3",
+      "3:2",
+      "1:1",
+      "4:6"
+    ],
+    "answer": "1:1"
+  },
+  {
+    "id": 223,
+    "topic": "Mensuration",
+    "difficulty": "Medium",
+    "question": "Diagonal of a rectangle 5 cm \u00d7 12 cm:",
+    "options": [
+      "11 cm",
+      "12 cm",
+      "13 cm",
+      "14 cm"
+    ],
+    "answer": "13 cm"
+  },
+  {
+    "id": 224,
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "question": "The product of two numbers is 120 and their sum is 22. What are the numbers?",
+    "options": [
+      "8 and 14",
+      "10 and 12",
+      "6 and 16",
+      "4 and 18"
+    ],
+    "answer": "10 and 12"
+  },
+  {
+    "id": 225,
+    "topic": "Time and Work",
+    "difficulty": "Easy",
+    "question": "A is twice as fast as B. Together they take 20 days. A alone:",
+    "options": [
+      "25 days",
+      "30 days",
+      "35 days",
+      "40 days"
+    ],
+    "answer": "30 days"
+  },
+  {
+    "id": 226,
+    "topic": "Simple Equations",
+    "difficulty": "Hard",
+    "question": "A number decreased by 15% gives 85. Number is:",
+    "options": [
+      "90",
+      "95",
+      "100",
+      "105"
+    ],
+    "answer": "100"
+  },
+  {
+    "id": 227,
+    "topic": "Probability",
+    "difficulty": "Easy",
+    "question": "A card is drawn from 52. P(red face card):",
+    "options": [
+      "3/26",
+      "1/13",
+      "1/8",
+      "3/13"
+    ],
+    "answer": "3/26"
+  },
+  {
+    "id": 228,
+    "topic": "Problems on Numbers",
+    "difficulty": "Hard",
+    "question": "The difference between a 2-digit number and its reverse is 36. Difference of digits:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 229,
+    "topic": "Volumes",
+    "difficulty": "Easy",
+    "question": "Water in a cylindrical tank r = 1.4 m, h = 5 m. Volume of water (\u03c0 = 22/7):",
+    "options": [
+      "28 m\u00b3",
+      "30.8 m\u00b3",
+      "33 m\u00b3",
+      "35.5 m\u00b3"
+    ],
+    "answer": "30.8 m\u00b3"
+  },
+  {
+    "id": 230,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Easy",
+    "question": "LCM of two co-prime numbers is 117. One number is 9. Other is:",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "15"
+    ],
+    "answer": "13"
+  },
+  {
+    "id": 231,
+    "topic": "Height and Distance",
+    "difficulty": "Hard",
+    "question": "Height of tower = 100 m, angle of elevation = 60\u00b0. Distance from foot of tower:",
+    "options": [
+      "50\u221a3 m",
+      "100/\u221a3 m",
+      "100\u221a3 m",
+      "200 m"
+    ],
+    "answer": "100/\u221a3 m"
+  },
+  {
+    "id": 232,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Easy",
+    "question": "Ratio of gold:silver in an alloy is 7:3. Gold in 50 kg alloy:",
+    "options": [
+      "30 kg",
+      "35 kg",
+      "40 kg",
+      "45 kg"
+    ],
+    "answer": "35 kg"
+  },
+  {
+    "id": 233,
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "question": "A man swims 3 km against current in 1.5 hours. If still-water speed = 4 km/h, current speed:",
+    "options": [
+      "1 km/h",
+      "1.5 km/h",
+      "2 km/h",
+      "2.5 km/h"
+    ],
+    "answer": "2 km/h"
+  },
+  {
+    "id": 234,
+    "topic": "Stocks and Shares",
+    "difficulty": "Medium",
+    "question": "Which gives better yield: 8% at Rs 120 or 6% at Rs 90?",
+    "options": [
+      "8% at Rs 120",
+      "6% at Rs 90",
+      "Both equal",
+      "Cannot determine"
+    ],
+    "answer": "6% at Rs 90"
+  },
+  {
+    "id": 235,
+    "topic": "Profit and Loss",
+    "difficulty": "Easy",
+    "question": "A shopkeeper marks goods 25% above CP and gives 5% discount. Profit%:",
+    "options": [
+      "15.75%",
+      "18.75%",
+      "19.25%",
+      "20%"
+    ],
+    "answer": "18.75%"
+  },
+  {
+    "id": 236,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Medium",
+    "question": "A 20L mixture: 25% alcohol. How much pure alcohol needed to make 40%?",
+    "options": [
+      "4 L",
+      "5 L",
+      "6 L",
+      "8 L"
+    ],
+    "answer": "5 L"
+  },
+  {
+    "id": 237,
+    "topic": "Discount",
+    "difficulty": "Medium",
+    "question": "Discount = 15%, MP = Rs 600. SP is:",
+    "options": [
+      "Rs 480",
+      "Rs 490",
+      "Rs 510",
+      "Rs 520"
+    ],
+    "answer": "Rs 510"
+  },
+  {
+    "id": 238,
+    "topic": "Time and Distance",
+    "difficulty": "Easy",
+    "question": "A person covers 20 km at 5 km/h and another 30 km at 10 km/h. Average speed:",
+    "options": [
+      "6 km/h",
+      "7 km/h",
+      "8 km/h",
+      "7.5 km/h"
+    ],
+    "answer": "7.5 km/h"
+  },
+  {
+    "id": 239,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Hard",
+    "question": "In how many ways can 3 books be selected from 7 books?",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "answer": "35"
+  },
+  {
+    "id": 240,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Hard",
+    "question": "Volume of hemisphere with r = 3 cm (\u03c0 \u2248 3.14):",
+    "options": [
+      "56.52 cm\u00b3",
+      "58.32 cm\u00b3",
+      "62.24 cm\u00b3",
+      "65 cm\u00b3"
+    ],
+    "answer": "56.52 cm\u00b3"
+  },
+  {
+    "id": 241,
+    "topic": "Percentage",
+    "difficulty": "Easy",
+    "question": "A student scored 80% in Maths, 70% in English. If Maths = 150, English = 100 marks. Total%:",
+    "options": [
+      "74%",
+      "76%",
+      "78%",
+      "80%"
+    ],
+    "answer": "76%"
+  },
+  {
+    "id": 242,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Easy",
+    "question": "Approximate: \u221a143 \u2248 ?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 243,
+    "topic": "Simple Interest",
+    "difficulty": "Medium",
+    "question": "A sum triples itself at 5% SI. Time taken:",
+    "options": [
+      "30 years",
+      "35 years",
+      "40 years",
+      "45 years"
+    ],
+    "answer": "40 years"
+  },
+  {
+    "id": 244,
+    "topic": "Basic Maths",
+    "difficulty": "Easy",
+    "question": "What is the LCM of 4 and 6?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "24"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 245,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Hard",
+    "question": "Find the odd one out: 1, 5, 14, 30, 55, 91",
+    "options": [
+      "5",
+      "14",
+      "30",
+      "55"
+    ],
+    "answer": "30"
+  },
+  {
+    "id": 246,
+    "topic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "If one root of x\u00b2 - px + q = 0 is twice the other, then:",
+    "options": [
+      "2p\u00b2 = 9q",
+      "p\u00b2 = 9q",
+      "2q = p\u00b2",
+      "9p = 2q\u00b2"
+    ],
+    "answer": "2p\u00b2 = 9q"
+  },
+  {
+    "id": 247,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Hard",
+    "question": "Pipe fills tank in 12 hrs, another in 16 hrs. Both opened together, closed after 4 hrs. Remaining fraction:",
+    "options": [
+      "5/12",
+      "7/12",
+      "5/6",
+      "1/6"
+    ],
+    "answer": "5/12"
+  },
+  {
+    "id": 248,
+    "topic": "Men Food",
+    "difficulty": "Easy",
+    "question": "Provisions for 120 men for 200 days. After 5 days 30 men leave. Provisions last:",
+    "options": [
+      "245 days",
+      "250 days",
+      "255 days",
+      "260 days"
+    ],
+    "answer": "255 days"
+  },
+  {
+    "id": 249,
+    "topic": "Average",
+    "difficulty": "Medium",
+    "question": "The average of 4 consecutive even numbers is 27. The smallest number is:",
+    "options": [
+      "22",
+      "24",
+      "26",
+      "28"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 250,
+    "topic": "Areas",
+    "difficulty": "Easy",
+    "question": "Area of equilateral triangle with side 6 cm:",
+    "options": [
+      "9\u221a3 cm\u00b2",
+      "12\u221a3 cm\u00b2",
+      "15\u221a3 cm\u00b2",
+      "18\u221a3 cm\u00b2"
+    ],
+    "answer": "9\u221a3 cm\u00b2"
+  },
+  {
+    "id": 251,
+    "topic": "Compound Interest",
+    "difficulty": "Easy",
+    "question": "A person deposits Rs 10,000 at 10% CI. After 2 years amount:",
+    "options": [
+      "Rs 11,000",
+      "Rs 11,500",
+      "Rs 12,000",
+      "Rs 12,100"
+    ],
+    "answer": "Rs 12,100"
+  },
+  {
+    "id": 252,
+    "topic": "Races and Games",
+    "difficulty": "Hard",
+    "question": "A runs at 6 km/h, B at 4.5 km/h. In a 2 km race, A beats B by:",
+    "options": [
+      "200 m",
+      "400 m",
+      "500 m",
+      "600 m"
+    ],
+    "answer": "500 m"
+  },
+  {
+    "id": 253,
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "question": "Rs 40,000 profit divided among A, B, C in 5:4:1. B gets:",
+    "options": [
+      "Rs 14,000",
+      "Rs 16,000",
+      "Rs 18,000",
+      "Rs 20,000"
+    ],
+    "answer": "Rs 16,000"
+  },
+  {
+    "id": 254,
+    "topic": "Mensuration",
+    "difficulty": "Easy",
+    "question": "Area of a semicircle with radius 14 cm (\u03c0 = 22/7):",
+    "options": [
+      "296 cm\u00b2",
+      "308 cm\u00b2",
+      "314 cm\u00b2",
+      "320 cm\u00b2"
+    ],
+    "answer": "308 cm\u00b2"
+  },
+  {
+    "id": 255,
+    "topic": "Arithmetic",
+    "difficulty": "Medium",
+    "question": "What is the difference between the largest and smallest 3-digit numbers?",
+    "options": [
+      "899",
+      "900",
+      "989",
+      "998"
+    ],
+    "answer": "899"
+  },
+  {
+    "id": 256,
+    "topic": "Time and Work",
+    "difficulty": "Hard",
+    "question": "A does 1/4 of work in 8 days. Time for all:",
+    "options": [
+      "24 days",
+      "28 days",
+      "32 days",
+      "36 days"
+    ],
+    "answer": "32 days"
+  },
+  {
+    "id": 257,
+    "topic": "Simple Equations",
+    "difficulty": "Medium",
+    "question": "Solve: x/5 + x/10 = 3",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 258,
+    "topic": "Probability",
+    "difficulty": "Hard",
+    "question": "P(A) = 0.4, P(B) = 0.3, A and B independent. P(A\u2229B):",
+    "options": [
+      "0.10",
+      "0.12",
+      "0.14",
+      "0.16"
+    ],
+    "answer": "0.12"
+  },
+  {
+    "id": 259,
+    "topic": "Problems on Numbers",
+    "difficulty": "Hard",
+    "question": "The sum of digits of a 2-digit number is 9. If digits are reversed, it exceeds original by 27. Number:",
+    "options": [
+      "27",
+      "36",
+      "45",
+      "63"
+    ],
+    "answer": "36"
+  },
+  {
+    "id": 260,
+    "topic": "Volumes",
+    "difficulty": "Medium",
+    "question": "Ratio of volumes of two spheres with radii 3 cm and 6 cm:",
+    "options": [
+      "1:4",
+      "1:6",
+      "1:8",
+      "1:12"
+    ],
+    "answer": "1:8"
+  },
+  {
+    "id": 261,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Hard",
+    "question": "Find largest number that divides 245 and 1029 leaving remainder 5:",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "answer": "16"
+  },
+  {
+    "id": 262,
+    "topic": "Height and Distance",
+    "difficulty": "Easy",
+    "question": "A ladder 10 m long makes 60\u00b0 with ground. Height reached on wall:",
+    "options": [
+      "5 m",
+      "5\u221a3 m",
+      "10\u221a3 m",
+      "10 m"
+    ],
+    "answer": "5\u221a3 m"
+  },
+  {
+    "id": 263,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Hard",
+    "question": "Salaries of A and B are in ratio 2:3. Salary of B is Rs 4500. A's salary:",
+    "options": [
+      "Rs 2500",
+      "Rs 3000",
+      "Rs 3500",
+      "Rs 4000"
+    ],
+    "answer": "Rs 3000"
+  },
+  {
+    "id": 264,
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "question": "A boat's speed in still water is 8 km/h and stream speed is 2 km/h. Time to go 30 km downstream:",
+    "options": [
+      "2 h",
+      "2.5 h",
+      "3 h",
+      "3.5 h"
+    ],
+    "answer": "3 h"
+  },
+  {
+    "id": 265,
+    "topic": "Stocks and Shares",
+    "difficulty": "Easy",
+    "question": "4.5% stock of Rs 1000 at Rs 900. Yield:",
+    "options": [
+      "4.5%",
+      "5%",
+      "5.5%",
+      "6%"
+    ],
+    "answer": "5%"
+  },
+  {
+    "id": 266,
+    "topic": "Profit and Loss",
+    "difficulty": "Hard",
+    "question": "CP of 15 articles = SP of 12 articles. Profit%:",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "40%"
+    ],
+    "answer": "25%"
+  },
+  {
+    "id": 267,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Easy",
+    "question": "Milk-water mixture in 5:3 ratio. On adding 10L water, ratio becomes 5:4. Quantity of milk:",
+    "options": [
+      "40 L",
+      "45 L",
+      "50 L",
+      "60 L"
+    ],
+    "answer": "50 L"
+  },
+  {
+    "id": 268,
+    "topic": "Discount",
+    "difficulty": "Medium",
+    "question": "If CP = Rs 400 and marked 25% above CP, then 10% discount gives profit%:",
+    "options": [
+      "10%",
+      "12.5%",
+      "15%",
+      "17.5%"
+    ],
+    "answer": "12.5%"
+  },
+  {
+    "id": 269,
+    "topic": "Time and Distance",
+    "difficulty": "Medium",
+    "question": "A and B start towards each other from 100 km apart, speeds 20 and 30 km/h. Time to meet:",
+    "options": [
+      "1 h",
+      "1.5 h",
+      "2 h",
+      "2.5 h"
+    ],
+    "answer": "2 h"
+  },
+  {
+    "id": 270,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Easy",
+    "question": "How many ways can a president and vice-president be elected from 10 candidates?",
+    "options": [
+      "45",
+      "72",
+      "90",
+      "100"
+    ],
+    "answer": "90"
+  },
+  {
+    "id": 271,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Hard",
+    "question": "Surface area of hemisphere with r = 7 cm (\u03c0 = 22/7):",
+    "options": [
+      "430 cm\u00b2",
+      "450 cm\u00b2",
+      "462 cm\u00b2",
+      "480 cm\u00b2"
+    ],
+    "answer": "462 cm\u00b2"
+  },
+  {
+    "id": 272,
+    "topic": "Percentage",
+    "difficulty": "Easy",
+    "question": "Price drops by 20%. By what % must it rise to restore original?",
+    "options": [
+      "20%",
+      "22%",
+      "25%",
+      "30%"
+    ],
+    "answer": "25%"
+  },
+  {
+    "id": 273,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Medium",
+    "question": "Simplify: (18 \u00d7 9 + 36) \u00f7 18:",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "11"
+  },
+  {
+    "id": 274,
+    "topic": "Simple Interest",
+    "difficulty": "Hard",
+    "question": "SI on Rs 7500 for 4 years is Rs 1500. Rate per annum:",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "8%"
+    ],
+    "answer": "5%"
+  },
+  {
+    "id": 275,
+    "topic": "Basic Maths",
+    "difficulty": "Hard",
+    "question": "What is 3/4 expressed as a decimal?",
+    "options": [
+      "0.50",
+      "0.60",
+      "0.70",
+      "0.75"
+    ],
+    "answer": "0.75"
+  },
+  {
+    "id": 276,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Easy",
+    "question": "Find the odd one out: 4, 9, 16, 25, 35, 49",
+    "options": [
+      "9",
+      "16",
+      "25",
+      "35"
+    ],
+    "answer": "35"
+  },
+  {
+    "id": 277,
+    "topic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "For what value of k does x\u00b2 - kx + 4 = 0 have equal roots?",
+    "options": [
+      "\u00b12",
+      "\u00b14",
+      "4",
+      "2"
+    ],
+    "answer": "\u00b14"
+  },
+  {
+    "id": 278,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Hard",
+    "question": "A cistern has two taps that fill in 10 and 15 minutes. A leak at bottom empties in 30 min. Fill time with all open:",
+    "options": [
+      "5 min",
+      "10 min",
+      "12 min",
+      "15 min"
+    ],
+    "answer": "12 min"
+  },
+  {
+    "id": 279,
+    "topic": "Men Food",
+    "difficulty": "Hard",
+    "question": "10 boys eat 10 bananas in 10 minutes. How many boys eat 1 banana in 1 minute?",
+    "options": [
+      "1",
+      "5",
+      "10",
+      "100"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 280,
+    "topic": "Average",
+    "difficulty": "Medium",
+    "question": "The mean of 15 observations is 20. If two observations 15 and 25 are removed, new mean is:",
+    "options": [
+      "19.2",
+      "19.8",
+      "20.0",
+      "20.4"
+    ],
+    "answer": "20.0"
+  },
+  {
+    "id": 281,
+    "topic": "Areas",
+    "difficulty": "Easy",
+    "question": "If the side of a square is increased by 10%, its area increases by:",
+    "options": [
+      "10%",
+      "20%",
+      "21%",
+      "25%"
+    ],
+    "answer": "21%"
+  },
+  {
+    "id": 282,
+    "topic": "Compound Interest",
+    "difficulty": "Hard",
+    "question": "The difference between CI and SI for Rs 10,000 at 10% for 3 years:",
+    "options": [
+      "Rs 250",
+      "Rs 300",
+      "Rs 310",
+      "Rs 325"
+    ],
+    "answer": "Rs 310"
+  },
+  {
+    "id": 283,
+    "topic": "Races and Games",
+    "difficulty": "Medium",
+    "question": "A can beat B by 100 m in 1 km. If they run 2 km, by how much does A beat B?",
+    "options": [
+      "100 m",
+      "150 m",
+      "180 m",
+      "190 m"
+    ],
+    "answer": "190 m"
+  },
+  {
+    "id": 284,
+    "topic": "Partnership",
+    "difficulty": "Medium",
+    "question": "A, B invest Rs 3000 for 8 months and Rs 4000 for 6 months. Total profit Rs 3300. A's share:",
+    "options": [
+      "Rs 1200",
+      "Rs 1500",
+      "Rs 1600",
+      "Rs 1800"
+    ],
+    "answer": "Rs 1500"
+  },
+  {
+    "id": 285,
+    "topic": "Mensuration",
+    "difficulty": "Hard",
+    "question": "If the perimeter of a square is 36 cm, its area is:",
+    "options": [
+      "64 cm\u00b2",
+      "72 cm\u00b2",
+      "81 cm\u00b2",
+      "90 cm\u00b2"
+    ],
+    "answer": "81 cm\u00b2"
+  },
+  {
+    "id": 286,
+    "topic": "Arithmetic",
+    "difficulty": "Hard",
+    "question": "What is 125% of 80?",
+    "options": [
+      "90",
+      "95",
+      "100",
+      "105"
+    ],
+    "answer": "100"
+  },
+  {
+    "id": 287,
+    "topic": "Time and Work",
+    "difficulty": "Easy",
+    "question": "15 men complete work in 20 days. After 5 days, 5 more join. Days to finish rest:",
+    "options": [
+      "10 days",
+      "11.25 days",
+      "12 days",
+      "13 days"
+    ],
+    "answer": "11.25 days"
+  },
+  {
+    "id": 288,
+    "topic": "Simple Equations",
+    "difficulty": "Hard",
+    "question": "Solve: 3x + 5 = 4x - 10",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "answer": "15"
+  },
+  {
+    "id": 289,
+    "topic": "Probability",
+    "difficulty": "Hard",
+    "question": "Probability of getting 3 tails when 3 coins tossed:",
+    "options": [
+      "1/4",
+      "1/6",
+      "1/8",
+      "1/12"
+    ],
+    "answer": "1/8"
+  },
+  {
+    "id": 290,
+    "topic": "Problems on Numbers",
+    "difficulty": "Easy",
+    "question": "What is the least number to be added to 2600 to make it a perfect square?",
+    "options": [
+      "1",
+      "4",
+      "9",
+      "16"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 291,
+    "topic": "Volumes",
+    "difficulty": "Easy",
+    "question": "A cube has total surface area 96 cm\u00b2. Its volume:",
+    "options": [
+      "52 cm\u00b3",
+      "60 cm\u00b3",
+      "64 cm\u00b3",
+      "72 cm\u00b3"
+    ],
+    "answer": "64 cm\u00b3"
+  },
+  {
+    "id": 292,
+    "topic": "Problems on LCM and HCF",
+    "difficulty": "Hard",
+    "question": "HCF of 84 and 144 is:",
+    "options": [
+      "8",
+      "12",
+      "18",
+      "24"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 293,
+    "topic": "Height and Distance",
+    "difficulty": "Easy",
+    "question": "Angle of elevation changes from 30\u00b0 to 45\u00b0 on walking 20 m toward tower. Height of tower:",
+    "options": [
+      "10(\u221a3+1) m",
+      "10(\u221a3-1) m",
+      "20\u221a3 m",
+      "10\u221a3 m"
+    ],
+    "answer": "10(\u221a3+1) m"
+  },
+  {
+    "id": 294,
+    "topic": "Ratio and Proportion",
+    "difficulty": "Easy",
+    "question": "A:B:C = 2:3:5. If B's share from Rs 1800 is:",
+    "options": [
+      "Rs 420",
+      "Rs 480",
+      "Rs 540",
+      "Rs 600"
+    ],
+    "answer": "Rs 540"
+  },
+  {
+    "id": 295,
+    "topic": "Boats and Streams",
+    "difficulty": "Medium",
+    "question": "A boat covers equal distances up and downstream. Up takes 6 hr, down takes 4 hr. Ratio boat:stream speed:",
+    "options": [
+      "3:1",
+      "4:1",
+      "5:1",
+      "5:2"
+    ],
+    "answer": "5:1"
+  },
+  {
+    "id": 296,
+    "topic": "Stocks and Shares",
+    "difficulty": "Medium",
+    "question": "A man buys Rs 50 par stock at Rs 60. If dividend is 12%, his yield:",
+    "options": [
+      "9%",
+      "10%",
+      "11%",
+      "12%"
+    ],
+    "answer": "10%"
+  },
+  {
+    "id": 297,
+    "topic": "Profit and Loss",
+    "difficulty": "Medium",
+    "question": "A cycle bought for Rs 1500 and sold for Rs 1800. Profit%:",
+    "options": [
+      "15%",
+      "18%",
+      "20%",
+      "25%"
+    ],
+    "answer": "20%"
+  },
+  {
+    "id": 298,
+    "topic": "Mixtures and Allegations",
+    "difficulty": "Hard",
+    "question": "Two solutions: 30% acid and 70% acid. To get 50% acid, they must be mixed in ratio:",
+    "options": [
+      "1:1",
+      "2:1",
+      "3:2",
+      "1:2"
+    ],
+    "answer": "1:1"
+  },
+  {
+    "id": 299,
+    "topic": "Discount",
+    "difficulty": "Hard",
+    "question": "To gain 12% after giving 20% discount, MP must be above CP by:",
+    "options": [
+      "30%",
+      "35%",
+      "40%",
+      "45%"
+    ],
+    "answer": "40%"
+  },
+  {
+    "id": 300,
+    "topic": "Time and Distance",
+    "difficulty": "Easy",
+    "question": "Train 120 m long at 60 km/h crosses a platform 80 m long. Time:",
+    "options": [
+      "10 s",
+      "12 s",
+      "14 s",
+      "15 s"
+    ],
+    "answer": "12 s"
+  },
+  {
+    "id": 301,
+    "topic": "Permutations and Combinations",
+    "difficulty": "Easy",
+    "question": "Number of triangles formed by 6 points (no 3 collinear):",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 302,
+    "topic": "Volume and Surface Area",
+    "difficulty": "Easy",
+    "question": "The total surface area of a right circular cone is 704 cm\u00b2 (\u03c0 = 22/7, r = 7 cm). Slant height:",
+    "options": [
+      "25 cm",
+      "28 cm",
+      "30 cm",
+      "32 cm"
+    ],
+    "answer": "25 cm"
+  },
+  {
+    "id": 303,
+    "topic": "Percentage",
+    "difficulty": "Hard",
+    "question": "If 75% of a number = 225. The number:",
+    "options": [
+      "280",
+      "290",
+      "300",
+      "310"
+    ],
+    "answer": "300"
+  },
+  {
+    "id": 304,
+    "topic": "Simplification and Approximation",
+    "difficulty": "Medium",
+    "question": "Value of 112 \u00d7 54:",
+    "options": [
+      "6,048",
+      "6,148",
+      "6,248",
+      "6,448"
+    ],
+    "answer": "6,048"
+  },
+  {
+    "id": 305,
+    "topic": "Simple Interest",
+    "difficulty": "Easy",
+    "question": "What sum gives SI of Rs 900 at 9% for 2 years?",
+    "options": [
+      "Rs 4000",
+      "Rs 4500",
+      "Rs 5000",
+      "Rs 5500"
+    ],
+    "answer": "Rs 5000"
+  },
+  {
+    "id": 306,
+    "topic": "Basic Maths",
+    "difficulty": "Medium",
+    "question": "Which is the smallest two-digit prime number?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "11"
+  },
+  {
+    "id": 307,
+    "topic": "Odd Man Out Series",
+    "difficulty": "Easy",
+    "question": "Find the odd one out: 3, 6, 12, 24, 96, 192",
+    "options": [
+      "6",
+      "12",
+      "24",
+      "96"
+    ],
+    "answer": "96"
+  },
+  {
+    "id": 308,
+    "topic": "Quadratic Equations",
+    "difficulty": "Hard",
+    "question": "Roots of 4x\u00b2 - 4x + 1 = 0:",
+    "options": [
+      "1/2, 1/2",
+      "1, 1",
+      "1/4, 1/4",
+      "1/2, -1/2"
+    ],
+    "answer": "1/2, 1/2"
+  },
+  {
+    "id": 309,
+    "topic": "Pipes and Cisterns",
+    "difficulty": "Easy",
+    "question": "3 pipes fill tank in 6, 8, 10 hours. Time to fill together:",
+    "options": [
+      "2.4 hrs",
+      "2.7 hrs",
+      "3 hrs",
+      "3.5 hrs"
+    ],
+    "answer": "2.4 hrs"
+  },
+  {
+    "id": 310,
+    "topic": "Men Food",
+    "difficulty": "Medium",
+    "question": "Rations for 500 men for 20 days. How many days for 400 men?",
+    "options": [
+      "22 days",
+      "24 days",
+      "25 days",
+      "28 days"
+    ],
+    "answer": "25 days"
+  }
 ]
